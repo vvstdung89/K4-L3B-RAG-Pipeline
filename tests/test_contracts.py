@@ -117,6 +117,9 @@ def test_semantic_search_uses_shared_embedding_and_contract(monkeypatch):
     import src.task5_semantic_search as semantic
 
     class FakeCollection:
+        def count(self):
+            return 2
+
         def query(self, **kwargs):
             assert kwargs["query_embeddings"] == [[0.1, 0.2]]
             return {

@@ -10,7 +10,10 @@ readme = "README.md"
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "anthropic>=0.40.0,<2",
-    "chromadb>=0.5.0,<2",
+    # Use the working hnswlib 0.7.3 wheel on Windows/Python 3.10-3.12.
+    "chromadb==0.5.3; sys_platform == 'win32' and python_version < '3.13'",
+    "chromadb>=1.0,<2; sys_platform != 'win32' or python_version >= '3.13'",
+    "posthog>=2.4,<4; sys_platform == 'win32' and python_version < '3.13'",
     "crawl4ai==0.9.3",
     "datasets>=4.0.0,<6",
     "firecrawl-py>=4.0.0,<5",
@@ -33,6 +36,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0.0"]
+local = ["sentence-transformers>=3,<6"]
 
 [tool.setuptools]
 packages = ["src"]
