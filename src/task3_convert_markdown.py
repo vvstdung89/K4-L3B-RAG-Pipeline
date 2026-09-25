@@ -18,6 +18,7 @@ import json
 import os
 import re
 import tempfile
+import unicodedata
 import zipfile
 from xml.etree import ElementTree
 from typing import Any
@@ -55,9 +56,20 @@ def _convert_with_fallback(source: Path) -> str:
     )
 
 
+def _normalize_markdown(content: str) -> str:
+    """Normalize Unicode and whitespace without flattening Markdown blocks."""
+    content = unicodedata.normalize("NFC", content)
+    content = content.replace("\r\n", "\n").replace("\r", "\n")
+    content = content.replace("\f", "\n\n").replace("\u00a0", " ")
+    content = content.replace("\ufeff", "").replace("\u200b", "")
+    content = re.sub(r"[\x00-\x08\x0b\x0e-\x1f\x7f]", "", content)
+    content = "\n".join(line.rstrip() for line in content.split("\n"))
+    return re.sub(r"\n{3,}", "\n\n", content).strip()
+
+
 def _write_markdown(path: Path, content: str) -> bool:
     """Write non-empty Markdown atomically; return False for blank content."""
-    content = content.strip()
+    content = _normalize_markdown(content)
     if not content:
         return False
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -104,7 +116,18 @@ def convert_legal_docs() -> None:
                     text = _convert_with_fallback(source)
         except Exception as exc:
             raise RuntimeError(f"Failed to convert legal document {source}") from exc
-        _write_markdown(target, text)
+        text = _normalize_markdown(text)
+        if not text:
+            raise ValueError(f"{source}: document body is empty after conversion")
+        # Keep a traceable local source even when the download URL is unknown.
+        title = source.stem.replace("_", " ")
+        markdown = (
+            f"# {title}\n\n"
+            f"**Source:** {source.relative_to(LANDING_DIR).as_posix()}\n\n"
+            "**Doc type:** legal\n\n---\n\n"
+            f"{text}\n"
+        )
+        _write_markdown(target, markdown)
 
 
 def _required_string(data: dict[str, Any], key: str, source: Path) -> str:
@@ -132,11 +155,13 @@ _NOISE_TEXT = (
 )
 _MARKDOWN_LINK = re.compile(r"\[([^\]]*)\]\((?:[^()]|\([^()]*\))*\)")
 _MARKDOWN_IMAGE = re.compile(r"!\[[^\]]*\]\((?:[^()]|\([^()]*\))*\)")
+_HOTEL_CARD = re.compile(r"^#{5}\s+(?:vinpearl|vinholidays|hòn tằm)\b", re.I)
+_FOOTER_TEXT = {"đọc tiếp", "chia sẻ tin qua:", "facebook copy link"}
 
 
 def _clean_article_markdown(markdown: str) -> str:
     """Remove crawler chrome and image/link markup while keeping article text."""
-    markdown = unescape(markdown).replace("\r\n", "\n").replace("\r", "\n")
+    markdown = _normalize_markdown(unescape(markdown))
     lines = markdown.splitlines()
 
     # Crawlers often capture full site navigation before the article. Start at
@@ -147,24 +172,33 @@ def _clean_article_markdown(markdown: str) -> str:
     lines = lines[first_heading:]
     cleaned = []
     in_toc = False
+    in_hotel_card = False
     for line in lines:
         if any(line.strip().lower().startswith(marker) for marker in _NOISE_HEADINGS):
             break
         lowered = line.strip().lower()
+        if lowered in _FOOTER_TEXT:
+            break
+        if _HOTEL_CARD.match(line):
+            in_hotel_card = True
+            continue
+        if in_hotel_card:
+            if re.match(r"^#{1,4}\s+\S", line):
+                in_hotel_card = False
+            else:
+                continue
         if re.fullmatch(r"(?:#{1,6}\s*)?(?:table of contents|mục lục)", lowered):
             in_toc = True
             continue
         if in_toc:
-            if re.match(r"^#{1,3}\s+(?:1[.\\]|điểm du lịch nào)", lowered):
+            if re.match(r"^#{1,6}\s+\S", lowered):
                 in_toc = False
             else:
                 continue
-        if any(noise in lowered for noise in _NOISE_TEXT):
+        if lowered in _NOISE_TEXT or lowered.startswith("đặt phòng trực tiếp"):
             continue
-        # Image descriptions are often emitted as separate italic captions.
-        if (
-            lowered.startswith("_") and lowered.endswith("_")
-        ) or "(ảnh:" in lowered or "(source:" in lowered:
+        # Keep italic article prose; only discard identifiable image captions.
+        if "(ảnh:" in lowered or "(source:" in lowered:
             continue
         # Images are decorative/caption-heavy and are not useful retrieval text.
         line = _MARKDOWN_IMAGE.sub("", line)
@@ -172,7 +206,10 @@ def _clean_article_markdown(markdown: str) -> str:
         line = _MARKDOWN_LINK.sub(r"\1", line)
         line = re.sub(r"<https?://[^>]+>|https?://\S+", "", line)
         line = re.sub(r"\s+", " ", line).strip()
-        if line and not re.fullmatch(r"[/|•\-\s]+", line) and "[](" not in line:
+        if not line:
+            if cleaned and cleaned[-1]:
+                cleaned.append("")
+        elif not re.fullmatch(r"[/|•\-\s]+", line) and "[](" not in line:
             cleaned.append(line)
 
     # Collapse blank runs while preserving paragraph and heading boundaries.
@@ -180,7 +217,7 @@ def _clean_article_markdown(markdown: str) -> str:
     for line in cleaned:
         if line or (result and result[-1]):
             result.append(line)
-    return "\n".join(result).strip()
+    return _normalize_markdown("\n".join(result))
 
 
 def convert_news_articles() -> None:
@@ -204,9 +241,19 @@ def convert_news_articles() -> None:
         )
         if not body:
             raise ValueError(f"{source}: article body is empty after cleanup")
+        # Use the article's own H1 and retain the crawl title as metadata.
+        heading = re.match(r"^#\s+([^\n]+)(?:\n|$)", body)
+        article_title = heading.group(1) if heading else title
+        if heading:
+            body = body[heading.end():].strip()
+        if not body:
+            raise ValueError(f"{source}: article contains a title but no body")
         markdown = (
-            f"# {title}\n\n"
+            f"# {article_title}\n\n"
+            f"**Title:** {title}\n\n"
             f"**Source:** {url}\n\n"
+            f"**Source file:** {source.relative_to(LANDING_DIR).as_posix()}\n\n"
+            "**Doc type:** news\n\n"
             f"**Crawled:** {date_crawled}\n\n"
             "---\n\n"
             f"{body}\n"
