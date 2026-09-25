@@ -1,82 +1,77 @@
 [
   {
-    "question": "Theo Luật Du lịch Việt Nam, du lịch được định nghĩa như thế nào?",
-    "expected_answer": "Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp với mục đích hợp pháp khác.",
-    "expected_context": "Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp với mục đích hợp pháp khác."
+    "question": "Theo Điều 3 Luật Du lịch, chuyến đi nào được xem là du lịch về thời lượng và mục đích?",
+    "expected_answer": "Du lịch là hoạt động liên quan đến chuyến đi ngoài nơi cư trú thường xuyên không quá 01 năm liên tục, nhằm tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp mục đích hợp pháp khác.",
+    "expected_context": "1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian\nkhông quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du\nlịch hoặc kết hợp với mục đích hợp pháp khác."
   },
   {
-    "question": "Thế nào là du lịch sinh thái theo quy định của Luật Du lịch 2017?",
-    "expected_answer": "Du lịch sinh thái là loại hình du lịch dựa vào thiên nhiên, gắn với bản sắc văn hoá địa phương, có sự tham gia của cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường.",
-    "expected_context": "Du lịch sinh thái là loại hình du lịch dựa vào thiên nhiên, gắn với bản sắc văn hoá địa phương, có sự tham gia của cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường."
+    "question": "Luật Du lịch định nghĩa du lịch sinh thái dựa trên những yếu tố nào?",
+    "expected_answer": "Du lịch sinh thái dựa vào thiên nhiên, gắn với bản sắc văn hóa địa phương, có sự tham gia của cộng đồng dân cư và kết hợp giáo dục bảo vệ môi trường.",
+    "expected_context": "16. Du lịch sinh thái là loại hình du lịch dựa vào thiên nhiên, gắn với bản sắc văn hoá địa phương, có sự tham gia\ncủa cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường."
   },
   {
-    "question": "Theo Luật Du lịch Việt Nam, khu du lịch bao gồm những cấp nào?",
-    "expected_answer": "Khu du lịch theo Luật Du lịch bao gồm khu du lịch cấp tỉnh và khu du lịch quốc gia.",
-    "expected_context": "Khu du lịch là khu vực có ưu thế về tài nguyên du lịch, được quy hoạch, đầu tư phát triển nhằm đáp ứng nhu cầu đa dạng của khách du lịch. Khu du lịch bao gồm khu du lịch cấp tỉnh và khu du lịch quốc gia."
+    "question": "Theo Luật Du lịch, khu du lịch được chia thành những cấp nào?",
+    "expected_answer": "Gồm khu du lịch cấp tỉnh và khu du lịch quốc gia.",
+    "expected_context": "6. Khu du lịch là khu vực có ưu thế về tài nguyên du lịch, được quy hoạch, đầu tư phát triển nhằm đáp ứng nhu cầu\nđa dạng của khách du lịch. Khu du lịch bao gồm khu du lịch cấp tỉnh và khu du lịch quốc gia."
   },
   {
-    "question": "Hướng dẫn viên du lịch được định nghĩa như thế nào trong Luật Du lịch?",
-    "expected_answer": "Hướng dẫn viên du lịch là người được cấp thẻ để hành nghề hướng dẫn du lịch.",
-    "expected_context": "Hướng dẫn viên du lịch là người được cấp thẻ để hành nghề hướng dẫn du lịch."
+    "question": "Ai được hành nghề hướng dẫn du lịch theo định nghĩa trong Luật Du lịch?",
+    "expected_answer": "Người được cấp thẻ để hành nghề hướng dẫn du lịch.",
+    "expected_context": "11. Hướng dẫn viên du lịch là người được cấp thẻ để hành nghề hướng dẫn du lịch."
   },
   {
-    "question": "Công dân các nước ASEAN như Thái Lan, Indonesia, Singapore được miễn visa du lịch Việt Nam tối đa bao nhiêu ngày?",
-    "expected_answer": "Khách du lịch mang hộ chiếu Thái Lan, Indonesia, Lào, Campuchia, Malaysia và Singapore không cần visa khi đến Việt Nam cho chuyến đi tối đa 30 ngày.",
+    "question": "Theo tài liệu EXO Travel, khách mang hộ chiếu Thái Lan hoặc Singapore có thể lưu trú miễn visa tối đa bao lâu?",
+    "expected_answer": "Tối đa 30 ngày.",
     "expected_context": "Tourists holding Thai, Indonesian, Lao, Cambodian, Malaysian and Singaporean passports also do not need a visa for a visit up to 30 days."
   },
   {
-    "question": "Lệ phí dán tem visa tại sân bay (Visa on Arrival stamping fee) cho loại Single Entry là bao nhiêu USD?",
-    "expected_answer": "Lệ phí dán tem tại chỗ là 25 USD/người đối với Single Entry và 50 USD/người đối với multi-entry đến 28 ngày bằng tiền mặt.",
-    "expected_context": "pay USD 25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped into your passport"
+    "question": "Theo hướng dẫn EXO Travel về Visa on Arrival, phí dán visa một lần và nhiều lần đến 28 ngày lần lượt là bao nhiêu?",
+    "expected_answer": "25 USD cho Single Entry và 50 USD cho multi-entry đến 28 ngày, thanh toán bằng tiền mặt trước khi visa được dán vào hộ chiếu.",
+    "expected_context": "You will then be asked to fill one more form, give 2 photos and pay USD)\n25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped\ninto your passport and handed back."
   },
   {
-    "question": "Hộ chiếu của du khách khi nhập cảnh vào Việt Nam cần có hiệu lực tối thiểu bao lâu?",
-    "expected_answer": "Du khách có thể bị từ chối nhập cảnh vào Việt Nam nếu hộ chiếu có thời hạn hiệu lực dưới 6 tháng.",
-    "expected_context": "Please note that entry to Vietnam may be refused if your passport has less than six months validity."
+    "question": "Ghi chú dành cho khách đến Việt Nam cảnh báo điều gì về thời hạn hộ chiếu?",
+    "expected_answer": "Khách có thể bị từ chối nhập cảnh nếu hộ chiếu còn hiệu lực dưới sáu tháng.",
+    "expected_context": "Please note that entry to Vietnam may be refused if your passport has less than\nsix months validity."
   },
   {
-    "question": "Nhà hát Lớn Hà Nội nằm ở địa chỉ nào và cách Hồ Hoàn Kiếm bao xa?",
-    "expected_answer": "Nhà hát Lớn Hà Nội tọa lạc tại số 1 phố Tràng Tiền, Quận Hoàn Kiếm, cách Hồ Hoàn Kiếm khoảng 500 mét.",
-    "expected_context": "The Opera House in Hanoi is located at 1 Trang Tien Street, Hoan Kiem District... Located just about 500 meters from Hoan Kiem Lake"
+    "question": "Theo EXO Travel, những sân bay quốc tế nào làm thủ tục Visa on Arrival?",
+    "expected_answer": "Hà Nội, Thành phố Hồ Chí Minh (Sài Gòn) và Đà Nẵng.",
+    "expected_context": "Such a VOA (Visa-On-Arrival) procedure is possible ONLY at the international airports in Hanoi, Ho Chi\nMinh City (Saigon) and Danang and at the land border of Moc Bai (coming from Cambodia tor Ho Cho Minh City)."
   },
   {
-    "question": "Nhà hát Lớn Hà Nội được khởi công và hoàn thành vào năm nào, lấy cảm hứng thiết kế từ đâu?",
-    "expected_answer": "Nhà hát Lớn Hà Nội được chính quyền Pháp xây dựng năm 1901 và chính thức hoàn thành năm 1911, lấy cảm hứng từ Palais Garnier ở Paris.",
-    "expected_context": "The Hanoi Opera House was built in 1901 by the French colonial administration and officially completed in 1911. Inspired by the Palais Garnier in Paris"
+    "question": "Nhà hát Lớn Hà Nội ở phố nào, thuộc quận nào và cách Hồ Hoàn Kiếm khoảng bao xa?",
+    "expected_answer": "Nhà hát ở số 1 phố Tràng Tiền, quận Hoàn Kiếm, cách Hồ Hoàn Kiếm khoảng 500 mét.",
+    "expected_context": "The Opera House in Hanoi is located at 1 Trang Tien Street, Hoan Kiem District, the prime location that allows visitors to easily reach the theater from various directions."
   },
   {
-    "question": "Giá vé vào cửa tham quan tour ban ngày tại Nhà hát Lớn Hà Nội là bao nhiêu?",
-    "expected_answer": "Giá vé vào cửa tham quan Nhà hát Lớn Hà Nội là 120.000 VNĐ/người, bao gồm quyền tiếp cận sảnh chính và khu vực trưng bày.",
-    "expected_context": "The entrance fee to the Opera House is 120,000 VND per person, which includes access to the main hall and exhibition areas but may not cover backstage tours or premium seating."
+    "question": "Nhà hát Lớn Hà Nội được xây dựng, hoàn thành khi nào và lấy cảm hứng từ công trình nào?",
+    "expected_answer": "Được xây dựng năm 1901, hoàn thành năm 1911 và lấy cảm hứng từ Palais Garnier ở Paris.",
+    "expected_context": "The Hanoi Opera House was built in 1901 by the French colonial administration and officially completed in 1911. Inspired by the Palais Garnier in Paris, it underwent a significant renovation from 1995 to 1997 to restore its architectural beauty."
   },
   {
-    "question": "Sự kiện lịch sử quan trọng nào đánh dấu kết thúc chiến tranh Việt Nam tại Dinh Độc Lập vào ngày 30/4/1975?",
-    "expected_answer": "Sự kiện xe tăng húc đổ cổng Dinh Độc Lập vào ngày 30/4/1975 đã đánh dấu sự kết thúc của chiến tranh Việt Nam.",
-    "expected_context": "it marked the end of the Vietnam War when tanks crashed through its gates on April 30, 1975."
+    "question": "Vé vào cửa tham quan Nhà hát Lớn Hà Nội có giá bao nhiêu và bao gồm khu vực nào?",
+    "expected_answer": "120.000 VND/người, gồm quyền vào sảnh chính và khu trưng bày; có thể không bao gồm tour hậu trường hoặc chỗ ngồi cao cấp.",
+    "expected_context": "The entrance fee to the Opera House is **120,000 VND per person**, which includes access to the main hall and exhibition areas but may not cover backstage tours or premium seating."
   },
   {
-    "question": "Tòa nhà Landmark 81 tại TP.HCM có chiều cao và số tầng là bao nhiêu?",
-    "expected_answer": "Landmark 81 là tòa nhà cao nhất Việt Nam và cao thứ hai Đông Nam Á, với chiều cao 461,2 mét và có 81 tầng.",
-    "expected_context": "Landmark 81 is Vietnam’s tallest skyscraper and the second tallest in Southeast Asia, standing at 461.2 meters with 81 floors."
+    "question": "Sự kiện nào tại Dinh Độc Lập được bài viết mô tả là đánh dấu kết thúc Chiến tranh Việt Nam?",
+    "expected_answer": "Xe tăng húc qua cổng Dinh Độc Lập ngày 30/4/1975.",
+    "expected_context": "Most notably, it marked the end of the Vietnam War when tanks crashed through its gates on April 30, 1975."
   },
   {
-    "question": "Thảo Cầm Viên Sài Gòn được thành lập vào năm nào và có vị thế như thế nào?",
-    "expected_answer": "Được thành lập vào năm 1864, Thảo Cầm Viên Sài Gòn là một trong những sở thú lâu đời nhất trên thế giới và lâu đời nhất tại Việt Nam.",
+    "question": "Saigon Zoo and Botanical Gardens được thành lập năm nào, và bài viết mô tả đây là sở thú lâu đời thế nào?",
+    "expected_answer": "Thành lập năm 1864; đây là một trong những sở thú lâu đời nhất thế giới và lâu đời nhất Việt Nam.",
     "expected_context": "Founded in 1864, Saigon Zoo and Botanical Gardens is one of the oldest zoos in the world and the oldest in Vietnam."
   },
   {
-    "question": "Vịnh Hạ Long thuộc tỉnh Quảng Ninh có diện tích và số lượng hòn đảo đá vôi là bao nhiêu?",
-    "expected_answer": "Vịnh Hạ Long có diện tích lên đến 1.553 km2 bao gồm 1.969 hòn đảo đá vôi mang nhiều hình thù đẹp mắt và là 1 trong 7 kỳ quan thiên nhiên thế giới.",
-    "expected_context": "Với diện tích lên đến 1.553km2 bao gồm 1.969 hòn đảo đá vôi mang nhiều hình thù đẹp mắt, sinh động. Du lịch Hạ Long - 1 trong 7 kỳ quan thiên nhiên thế giới"
-  },
-  {
-    "question": "Núi Bà Đen ở Tây Ninh có độ cao bao nhiêu và giữ kỷ lục gì ở miền Nam?",
-    "expected_answer": "Núi Bà Đen có độ cao 986m và là ngọn núi cao nhất miền Nam Việt Nam.",
+    "question": "Núi Bà Đen cao bao nhiêu và giữ vị trí nào ở miền Nam Việt Nam?",
+    "expected_answer": "Núi cao 986 m và là ngọn núi cao nhất miền Nam Việt Nam.",
     "expected_context": "Với độ cao 986m, đứng trên ngọn núi cao nhất miền Nam, du khách sẽ có những trải nghiệm thú vị khi săn mây, ngắm nhìn vẻ đẹp hùng vĩ của núi non."
   },
   {
-    "question": "Bãi biển Cửa Đại ở Hội An, Quảng Nam là nơi gặp gỡ của ba dòng sông nào?",
-    "expected_answer": "Bãi biển Cửa Đại có bờ cát trắng mịn và là nơi gặp gỡ của 3 dòng sông: Thu Bồn, Trường Giang và Đế Võng.",
-    "expected_context": "Cửa Đại có bờ cát trắng mịn màng và là nơi “gặp gỡ” của 3 dòng sông: Thu Bồn, Trường Giang, Đế Võng. Bãi biển này lọt top những bãi biển đẹp nhất Việt Nam."
+    "question": "Theo bài viết về biển Cửa Đại, ba con sông nào gặp nhau tại đây?",
+    "expected_answer": "Thu Bồn, Trường Giang và Đế Võng.",
+    "expected_context": "Cửa Đại có bờ cát trắng mịn màng và là nơi “gặp gỡ” của 3 dòng sông: Thu Bồn, Trường Giang, Đế Võng."
   }
 ]

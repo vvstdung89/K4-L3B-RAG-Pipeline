@@ -1,0 +1,577 @@
+{
+  "run_at_utc": "2026-09-25T06:58:10.313187+00:00",
+  "dataset": "group_project/evaluation/golden_dataset.json",
+  "dataset_size": 15,
+  "top_k": 5,
+  "generator_model": "gemini-3.5-flash-lite",
+  "evaluator_model": "gemini-3.5-flash-lite",
+  "embedding_model": "gemini-embedding-001",
+  "status": "complete",
+  "completed_config_case_runs": 30,
+  "blocked_by": null,
+  "scores": {
+    "A_dense_only": {
+      "faithfulness": 1.0,
+      "answer_relevance": 0.9066666666666666,
+      "context_recall": 0.8,
+      "context_precision": 0.6,
+      "average": 0.8266666666666667
+    },
+    "B_hybrid_rrf": {
+      "faithfulness": 0.9666666666666667,
+      "answer_relevance": 0.8113333333333334,
+      "context_recall": 0.7333333333333333,
+      "context_precision": 0.4633333333333333,
+      "average": 0.7436666666666667
+    }
+  },
+  "delta_B_minus_A": {
+    "faithfulness": -0.033333333333333326,
+    "answer_relevance": -0.09533333333333327,
+    "context_recall": -0.06666666666666676,
+    "context_precision": -0.13666666666666666,
+    "average": -0.08299999999999996
+  },
+  "cases": [
+    {
+      "case": 1,
+      "question": "Theo Điều 3 Luật Du lịch, chuyến đi nào được xem là du lịch về thời lượng và mục đích?",
+      "config": "A_dense_only",
+      "answer": "Theo Điều 3 Luật Du lịch, chuyến đi được xem là du lịch có các yếu tố về thời lượng và mục đích như sau:\n\n* **Về thời lượng:** Là chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian không quá 01 năm liên tục [Document 1].\n* **Về mục đích:** Nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp với mục đích hợp pháp khác [Document 1, Document 3].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-2",
+        "legal/LUẬT DU LỊCH.md::chunk-3",
+        "legal/LUẬT DU LỊCH.md::chunk-1",
+        "legal/LUẬT DU LỊCH.md::chunk-26",
+        "legal/LUẬT DU LỊCH.md::chunk-0"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully contains the definition of tourism in Điều 3. Failure stage: none."
+    },
+    {
+      "case": 1,
+      "question": "Theo Điều 3 Luật Du lịch, chuyến đi nào được xem là du lịch về thời lượng và mục đích?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo Điều 3 Luật Du lịch, về thời lượng và mục đích, du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian không quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du lịch hoặc kết hợp với mục đích hợp pháp khác [Document 1, Document 3].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-2",
+        "legal/LUẬT DU LỊCH.md::chunk-3",
+        "legal/LUẬT DU LỊCH.md::chunk-5",
+        "legal/LUẬT DU LỊCH.md::chunk-1",
+        "legal/LUẬT DU LỊCH.md::chunk-6"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully supports the answer and expected answer (Article 3 of Tourism Law). Chunk 2 and Chunk 3 contain the necessary evidence, while other chunks are irrelevant, indicating slight noise in retrieval. Failure stage: none."
+    },
+    {
+      "case": 2,
+      "question": "Luật Du lịch định nghĩa du lịch sinh thái dựa trên những yếu tố nào?",
+      "config": "A_dense_only",
+      "answer": "Theo Luật Du lịch, du lịch sinh thái được định nghĩa là loại hình du lịch dựa vào thiên nhiên, gắn với bản sắc văn hoá địa phương, có sự tham gia của cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường [Document 3].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-8",
+        "legal/LUẬT DU LỊCH.md::chunk-9",
+        "legal/LUẬT DU LỊCH.md::chunk-35",
+        "legal/LUẬT DU LỊCH.md::chunk-2",
+        "legal/LUẬT DU LỊCH.md::chunk-3"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.6,
+      "notes": "Retrieved context fully contains the definition of eco-tourism split across chunk 8 and 9, but also includes some irrelevant chunks (chunk 35, 2, 3). No failure."
+    },
+    {
+      "case": 2,
+      "question": "Luật Du lịch định nghĩa du lịch sinh thái dựa trên những yếu tố nào?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo Luật Du lịch, du lịch sinh thái là loại hình du lịch dựa vào thiên nhiên, gắn với bản sắc văn hoá địa phương, có sự tham gia của cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường [Document 1, Document 4].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-8",
+        "legal/LUẬT DU LỊCH.md::chunk-35",
+        "legal/LUẬT DU LỊCH.md::chunk-4",
+        "legal/LUẬT DU LỊCH.md::chunk-9",
+        "legal/LUẬT DU LỊCH.md::chunk-0"
+      ],
+      "faithfulness": 0.5,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.4,
+      "notes": "Retrieval missed the exact trailing text 'của cộng đồng dân cư, kết hợp giáo dục về bảo vệ môi trường' in chunk-8, splitting it across chunk-8 and chunk-9, leading to incomplete faithfulness for the full answer because the generated text relied on unretrieved context parts. Failure stage: retrieval."
+    },
+    {
+      "case": 3,
+      "question": "Theo Luật Du lịch, khu du lịch được chia thành những cấp nào?",
+      "config": "A_dense_only",
+      "answer": "Dựa trên các tài liệu được cung cấp, không có thông tin trực tiếp nêu rõ khu du lịch được chia thành tất cả các cấp nào. Tuy nhiên, ngữ cảnh có đề cập đến các cấp:\n- Khu du lịch cấp tỉnh [Document 1]\n- Khu du lịch quốc gia [Document 2]",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-61",
+        "legal/LUẬT DU LỊCH.md::chunk-58",
+        "legal/LUẬT DU LỊCH.md::chunk-59",
+        "legal/LUẬT DU LỊCH.md::chunk-66",
+        "legal/LUẬT DU LỊCH.md::chunk-64"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.5,
+      "context_recall": 0.0,
+      "context_precision": 0.1,
+      "notes": "Retrieved context lacks the definition chunk containing the types of tourist zones (provincial and national levels). Failure stage: retrieval."
+    },
+    {
+      "case": 3,
+      "question": "Theo Luật Du lịch, khu du lịch được chia thành những cấp nào?",
+      "config": "B_hybrid_rrf",
+      "answer": "Dựa trên các tài liệu được cung cấp, Luật Du lịch đề cập đến các cấp khu du lịch sau:\n- Khu du lịch cấp tỉnh [Document 1, Document 2, Document 3]\n- Khu du lịch quốc gia [Document 1, Document 5]",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-61",
+        "legal/LUẬT DU LỊCH.md::chunk-59",
+        "legal/LUẬT DU LỊCH.md::chunk-62",
+        "news/article_03.md::chunk-69",
+        "legal/LUẬT DU LỊCH.md::chunk-58"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 0.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context lacks the definition chunk (Article 26) stating the two levels explicitly, leading to failure in context recall. Failure stage: retrieval."
+    },
+    {
+      "case": 4,
+      "question": "Ai được hành nghề hướng dẫn du lịch theo định nghĩa trong Luật Du lịch?",
+      "config": "A_dense_only",
+      "answer": "Dựa trên các tài liệu được cung cấp, ngữ cảnh không định nghĩa đích danh \"Ai được hành nghề hướng dẫn du lịch\", nhưng có quy định về các loại hướng dẫn viên du lịch [Document 1] và các điều kiện hành nghề của hướng dẫn viên du lịch [Document 3]. \n\nCụ thể, hướng dẫn viên du lịch bao gồm:\n- Hướng dẫn viên du lịch quốc tế [Document 1, Document 2]\n- Hướng dẫn viên du lịch nội địa [Document 1, Document 2]\n- Hướng dẫn viên du lịch tại điểm [Document 1, Document 2]\n\nĐiều kiện hành nghề của hướng dẫn viên du lịch bao gồm:\n- Có thẻ hướng dẫn viên du lịch [Document 3];\n- Có hợp đồng lao động với doanh nghiệp kinh doanh dịch vụ lữ hành, doanh nghiệp cung cấp dịch vụ hướng dẫn du lịch hoặc là hội viên của tổ chức xã hội - nghề nghiệp về hướng dẫn du lịch đối với hướng dẫn viên du lịch quốc tế và hướng dẫn viên du lịch nội địa [Document 2, Document 3];\n- Có hợp đồng hướng dẫn với doanh nghiệp kinh doanh dịch vụ lữ hành hoặc văn bản phân công hướng dẫn theo chương trình du lịch; đối với hướng dẫn viên du lịch tại điểm, phải có phân công của tổ chức, cá nhân quản lý khu du lịch, điểm du lịch [Document 2].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-136",
+        "legal/LUẬT DU LỊCH.md::chunk-138",
+        "legal/LUẬT DU LỊCH.md::chunk-137",
+        "legal/LUẬT DU LỊCH.md::chunk-158",
+        "legal/LUẬT DU LỊCH.md::chunk-139"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.5,
+      "context_recall": 0.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context lacks the definition chunk (chunk 11), leading to low context_recall. Failure stage: retrieval."
+    },
+    {
+      "case": 4,
+      "question": "Ai được hành nghề hướng dẫn du lịch theo định nghĩa trong Luật Du lịch?",
+      "config": "B_hybrid_rrf",
+      "answer": "Dựa trên các tài liệu được cung cấp, ngữ cảnh không chứa định nghĩa cụ thể về việc \"Ai được hành nghề hướng dẫn du lịch\" một cách tổng quát, mà chỉ quy định về phạm vi hành nghề và điều kiện hành nghề của hướng dẫn viên du lịch (bao gồm hướng dẫn viên du lịch quốc tế, hướng dẫn viên du lịch nội địa, và hướng dẫn viên du lịch tại điểm) [Document 3, Document 5]. \n\nDo đó, tôi từ chối xác minh câu hỏi này ngoài các thông tin đã nêu trong context.",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-158",
+        "legal/LUẬT DU LỊCH.md::chunk-137",
+        "legal/LUẬT DU LỊCH.md::chunk-138",
+        "legal/LUẬT DU LỊCH.md::chunk-160",
+        "legal/LUẬT DU LỊCH.md::chunk-157"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.2,
+      "context_recall": 0.0,
+      "context_precision": 0.2,
+      "notes": "Retrieval missed the specific definition chunk (\"Hướng dẫn viên du lịch là người được cấp thẻ...\"), leading to a refusal in generation. Failure stage: retrieval."
+    },
+    {
+      "case": 5,
+      "question": "Theo tài liệu EXO Travel, khách mang hộ chiếu Thái Lan hoặc Singapore có thể lưu trú miễn visa tối đa bao lâu?",
+      "config": "A_dense_only",
+      "answer": "Dựa trên các tài liệu được cung cấp, không có thông tin nào nhắc đến thời hạn miễn visa cho khách mang hộ chiếu Thái Lan. \n\nĐối với khách mang hộ chiếu Singapore, họ không cần visa cho chuyến thăm tối đa lên đến 30 ngày [Document 1].",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-2",
+        "legal/exotravel_vietnam_visa_information.md::chunk-14",
+        "legal/exotravel_vietnam_visa_information.md::chunk-0",
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/exotravel_vietnam_visa_information.md::chunk-4"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_recall": 0.5,
+      "context_precision": 0.5,
+      "notes": "Retrieved context missed information about Thai passports (present in expected context), leading to incomplete retrieval (retrieval failure). Faithfulness is high for the stated facts, but answer relevance is slightly reduced due to missing the Thai passport part."
+    },
+    {
+      "case": 5,
+      "question": "Theo tài liệu EXO Travel, khách mang hộ chiếu Thái Lan hoặc Singapore có thể lưu trú miễn visa tối đa bao lâu?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo tài liệu EXO Travel, khách mang hộ chiếu Singapore không cần visa cho chuyến thăm tối đa đến 30 ngày [Document 4]. Tuy nhiên, tài liệu không cung cấp thông tin về thời gian lưu trú miễn visa đối với khách mang hộ chiếu Thái Lan [Document 4]. Do đó, tôi từ chối xác minh phần thông tin về hộ chiếu Thái Lan vì thiếu evidence.",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-0",
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/LUẬT DU LỊCH.md::chunk-111",
+        "legal/exotravel_vietnam_visa_information.md::chunk-2",
+        "legal/LUẬT DU LỊCH.md::chunk-113"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.5,
+      "context_recall": 0.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context lacks information for Thai passport due to missing chunks, leading to a partial answer. Failure stage: retrieval."
+    },
+    {
+      "case": 6,
+      "question": "Theo hướng dẫn EXO Travel về Visa on Arrival, phí dán visa một lần và nhiều lần đến 28 ngày lần lượt là bao nhiêu?",
+      "config": "A_dense_only",
+      "answer": "Theo hướng dẫn của EXO Travel, phí dán visa tại sân bay (Visa on Arrival) được quy định như sau:\n- Visa nhập cảnh một lần (Single entry): USD 25/người [Document 1].\n- Visa nhập cảnh nhiều lần (multi-entry) đến 28 ngày: USD 50/người [Document 1].",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-9",
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/exotravel_vietnam_visa_information.md::chunk-4",
+        "legal/exotravel_vietnam_visa_information.md::chunk-14",
+        "legal/exotravel_vietnam_visa_information.md::chunk-5"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully supports the answer. Chunk 9 contains the exact visa fees. Minor irrelevant chunks retrieved, failure stage: none."
+    },
+    {
+      "case": 6,
+      "question": "Theo hướng dẫn EXO Travel về Visa on Arrival, phí dán visa một lần và nhiều lần đến 28 ngày lần lượt là bao nhiêu?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo hướng dẫn của EXO Travel về Visa on Arrival (Visa khi đến):\n- Phí cho visa nhập cảnh một lần (Single entry) là USD 25/người [Document 3].\n- Phí cho visa nhập cảnh nhiều lần (multi-entry) đến 28 ngày là USD 50/người [Document 3].",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/exotravel_vietnam_visa_information.md::chunk-9",
+        "legal/exotravel_vietnam_visa_information.md::chunk-4",
+        "news/article_03.md::chunk-1",
+        "legal/exotravel_vietnam_visa_information.md::chunk-14"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context (chunk-9) contains exact fee details for single and multi-entry visas. Failure stage: none."
+    },
+    {
+      "case": 7,
+      "question": "Ghi chú dành cho khách đến Việt Nam cảnh báo điều gì về thời hạn hộ chiếu?",
+      "config": "A_dense_only",
+      "answer": "Ghi chú dành cho khách đến Việt Nam cảnh báo rằng việc nhập cảnh vào Việt Nam có thể bị từ chối nếu hộ chiếu của bạn có thời hạn hiệu lực ít hơn sáu tháng [Document 1]. Ngoài ra, tất cả khách du lịch phải có hộ chiếu còn hạn 6 tháng sau thời điểm dự kiến xuất cảnh khỏi Việt Nam [Document 2].",
+      "retrieved_ids": [
+        "legal/vietnam_visitors_notes.md::chunk-2",
+        "legal/vietnam_visitors_notes.md::chunk-1",
+        "legal/vietnam_visitors_notes.md::chunk-4",
+        "legal/vietnam_visitors_notes.md::chunk-3",
+        "legal/exotravel_vietnam_visa_information.md::chunk-0"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context contains the required evidence in chunk-2 and chunk-0. Generation is fully supported. Failure stage: none."
+    },
+    {
+      "case": 7,
+      "question": "Ghi chú dành cho khách đến Việt Nam cảnh báo điều gì về thời hạn hộ chiếu?",
+      "config": "B_hybrid_rrf",
+      "answer": "Ghi chú dành cho khách đến Việt Nam cảnh báo rằng việc nhập cảnh vào Việt Nam có thể bị từ chối nếu hộ chiếu của bạn có thời hạn hiệu lực còn lại dưới sáu tháng [Document 3].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-32",
+        "legal/vietnam_visitors_notes.md::chunk-2",
+        "legal/vietnam_visitors_notes.md::chunk-1",
+        "news/article_04.md::chunk-1",
+        "legal/vietnam_visitors_notes.md::chunk-4"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context successfully contains the gold evidence in chunk 2 of vietnam_visitors_notes.md, though other chunks contain some unrelated information. Failure stage: none."
+    },
+    {
+      "case": 8,
+      "question": "Theo EXO Travel, những sân bay quốc tế nào làm thủ tục Visa on Arrival?",
+      "config": "A_dense_only",
+      "answer": "Theo EXO Travel, thủ tục Visa on Arrival (VOA) có thể thực hiện tại các sân bay quốc tế ở Hà Nội, Thành phố Hồ Chí Minh (Sài Gòn) và Đà Nẵng [Document 1, Document 5].",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-9",
+        "legal/exotravel_vietnam_visa_information.md::chunk-14",
+        "legal/exotravel_vietnam_visa_information.md::chunk-10",
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/exotravel_vietnam_visa_information.md::chunk-5"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved chunks contain the necessary evidence across chunks 9 and 10, with some split text. Failure stage: none."
+    },
+    {
+      "case": 8,
+      "question": "Theo EXO Travel, những sân bay quốc tế nào làm thủ tục Visa on Arrival?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo EXO Travel, thủ tục Visa on Arrival (VOA) chỉ có thể thực hiện tại các sân bay quốc tế ở Hà Nội và Hồ Chí Minh [Document 5].",
+      "retrieved_ids": [
+        "legal/exotravel_vietnam_visa_information.md::chunk-11",
+        "legal/exotravel_vietnam_visa_information.md::chunk-14",
+        "legal/exotravel_vietnam_visa_information.md::chunk-9",
+        "legal/exotravel_vietnam_visa_information.md::chunk-8",
+        "legal/exotravel_vietnam_visa_information.md::chunk-0"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.67,
+      "context_recall": 0.5,
+      "context_precision": 0.8,
+      "notes": "Retrieved context misses Danang due to chunking cut-off, causing partial answer recall; failure stage: retrieval."
+    },
+    {
+      "case": 9,
+      "question": "Nhà hát Lớn Hà Nội ở phố nào, thuộc quận nào và cách Hồ Hoàn Kiếm khoảng bao xa?",
+      "config": "A_dense_only",
+      "answer": "Dựa trên các tài liệu được cung cấp:\n- Nhà hát Lớn Hà Nội nằm trên phố Tràng Tiền [Document 5].\n- Cách Hồ Hoàn Kiếm khoảng 500 mét [Document 1, Document 3, Document 5].\n\n*Lưu ý: Thông tin về quận cụ thể không được đề cập trong các tài liệu cung cấp, do đó tôi không thể xác minh thông tin này.*",
+      "retrieved_ids": [
+        "news/article_01.md::chunk-3",
+        "news/article_01.md::chunk-24",
+        "news/article_01.md::chunk-7",
+        "news/article_01.md::chunk-30",
+        "news/article_01.md::chunk-4"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_recall": 0.5,
+      "context_precision": 0.6,
+      "notes": "Retrieved context lacks district info (Hoan Kiem district), causing partial expected answer. Failure stage: retrieval."
+    },
+    {
+      "case": 9,
+      "question": "Nhà hát Lớn Hà Nội ở phố nào, thuộc quận nào và cách Hồ Hoàn Kiếm khoảng bao xa?",
+      "config": "B_hybrid_rrf",
+      "answer": "Berdasarkan context yang disediakan:\n- Nhà hát Lớn Hà Nội nằm trên phố Tràng Tiền [Document 2].\n- Cách Hồ Hoàn Kiếm khoảng 500 mét [Document 1, Document 5].\n- Thông tin về quận cụ thể chứa nhà hát không được đề cập trong các tài liệu.",
+      "retrieved_ids": [
+        "news/article_01.md::chunk-3",
+        "news/article_03.md::chunk-34",
+        "news/article_01.md::chunk-24",
+        "news/article_04.md::chunk-44",
+        "news/article_01.md::chunk-7"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_recall": 0.5,
+      "context_precision": 0.4,
+      "notes": "Retrieved context lacks district info (Hoan Kiem District), leading to partial answer and lower recall/precision. Failure stage: retrieval."
+    },
+    {
+      "case": 10,
+      "question": "Nhà hát Lớn Hà Nội được xây dựng, hoàn thành khi nào và lấy cảm hứng từ công trình nào?",
+      "config": "A_dense_only",
+      "answer": "Nhà hát Lớn Hà Nội được xây dựng vào năm 1901 và chính thức hoàn thành vào năm 1911 [Document 1]. Công trình này lấy cảm hứng từ nhà hát Palais Garnier ở Paris [Document 1].",
+      "retrieved_ids": [
+        "news/article_01.md::chunk-10",
+        "news/article_01.md::chunk-33",
+        "news/article_01.md::chunk-11",
+        "news/article_01.md::chunk-2",
+        "news/article_01.md::chunk-13"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context contains necessary evidence in chunk-10, but chunks 2, 11, 13, and 33 are irrelevant. Failure stage: retrieval (low precision)."
+    },
+    {
+      "case": 10,
+      "question": "Nhà hát Lớn Hà Nội được xây dựng, hoàn thành khi nào và lấy cảm hứng từ công trình nào?",
+      "config": "B_hybrid_rrf",
+      "answer": "Dựa trên các tài liệu được cung cấp, Nhà hát Lớn Hà Nội (The Hanoi Opera House) được xây dựng vào năm 1901 bởi chính quyền thực dân Pháp và chính thức hoàn thành vào năm 1911 [Document 3]. Công trình này lấy cảm hứng từ nhà hát Palais Garnier ở Paris [Document 3].",
+      "retrieved_ids": [
+        "news/article_03.md::chunk-4",
+        "news/article_01.md::chunk-10",
+        "news/article_03.md::chunk-3",
+        "news/article_01.md::chunk-33",
+        "news/article_01.md::chunk-11"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context contains the necessary evidence in chunk-10, but also includes irrelevant chunks (retrieval stage issue)."
+    },
+    {
+      "case": 11,
+      "question": "Vé vào cửa tham quan Nhà hát Lớn Hà Nội có giá bao nhiêu và bao gồm khu vực nào?",
+      "config": "A_dense_only",
+      "answer": "Phí vào cửa tham quan Nhà hát Lớn Hà Nội là **120,000 VND mỗi người**, đã bao gồm quyền truy cập vào sảnh chính và các khu vực triển lãm, nhưng có thể không bao gồm các chuyến tham quan hậu trường hoặc chỗ ngồi cao cấp [Document 1].",
+      "retrieved_ids": [
+        "news/article_01.md::chunk-5",
+        "news/article_01.md::chunk-6",
+        "news/article_01.md::chunk-4",
+        "news/article_01.md::chunk-33",
+        "news/article_01.md::chunk-30"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.4,
+      "notes": "Retrieved context contains the necessary evidence for the entrance fee and included areas in chunk 5, but also includes multiple irrelevant chunks about Saigon Opera House and Hanoi surroundings. Failure stage: retrieval (contains irrelevant chunks)."
+    },
+    {
+      "case": 11,
+      "question": "Vé vào cửa tham quan Nhà hát Lớn Hà Nội có giá bao nhiêu và bao gồm khu vực nào?",
+      "config": "B_hybrid_rrf",
+      "answer": "Dựa trên context được cung cấp, không có thông tin nào đề cập đến giá vé vào cửa tham quan Nhà hát Lớn Hà Nội. Do đó, tôi từ chối xác minh thông tin này.",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-57",
+        "news/article_01.md::chunk-5",
+        "legal/LUẬT DU LỊCH.md::chunk-168",
+        "news/article_01.md::chunk-6",
+        "legal/LUẬT DU LỊCH.md::chunk-5"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 0.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context actually contained the correct information about ticket prices for the Opera House (though for Saigon Opera House), but the model failed to find it due to mixing up Hanoi and Saigon, leading to a refusal and generation failure stage."
+    },
+    {
+      "case": 12,
+      "question": "Sự kiện nào tại Dinh Độc Lập được bài viết mô tả là đánh dấu kết thúc Chiến tranh Việt Nam?",
+      "config": "A_dense_only",
+      "answer": "Sự kiện được mô tả là đánh dấu kết thúc Chiến tranh Việt Nam là việc những chiếc xe tăng húc đổ cổng của Dinh Độc Lập vào ngày 30 tháng 4 năm 1975 [Document 1].",
+      "retrieved_ids": [
+        "news/article_02.md::chunk-3",
+        "news/article_02.md::chunk-4",
+        "news/article_02.md::chunk-2",
+        "news/article_02.md::chunk-15",
+        "news/article_02.md::chunk-1"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context contains necessary evidence in chunk-3; chunk-1, 2, 4, 15 have minor irrelevant content. Failure stage: none."
+    },
+    {
+      "case": 12,
+      "question": "Sự kiện nào tại Dinh Độc Lập được bài viết mô tả là đánh dấu kết thúc Chiến tranh Việt Nam?",
+      "config": "B_hybrid_rrf",
+      "answer": "Sự kiện được mô tả là đánh dấu kết thúc Chiến tranh Việt Nam tại Dinh Độc Lập là việc các xe tăng húc đổ cổng của dinh vào ngày 30 tháng 4 năm 1975 [Document 3].",
+      "retrieved_ids": [
+        "legal/LUẬT DU LỊCH.md::chunk-98",
+        "news/article_02.md::chunk-3",
+        "legal/LUẬT DU LỊCH.md::chunk-168",
+        "news/article_02.md::chunk-4",
+        "news/article_02.md::chunk-2"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context includes Luật Du lịch chunks which are irrelevant, leading to low context precision. Failure stage: retrieval."
+    },
+    {
+      "case": 13,
+      "question": "Saigon Zoo and Botanical Gardens được thành lập năm nào, và bài viết mô tả đây là sở thú lâu đời thế nào?",
+      "config": "A_dense_only",
+      "answer": "Saigon Zoo and Botanical Gardens được thành lập vào năm 1864 [Document 3]. Bài viết mô tả đây là một trong những sở thú lâu đời nhất trên thế giới và là sở thú lâu đời nhất tại Việt Nam [Document 1, Document 3].",
+      "retrieved_ids": [
+        "news/article_02.md::chunk-33",
+        "news/article_02.md::chunk-32",
+        "news/article_02.md::chunk-34",
+        "news/article_02.md::chunk-35",
+        "news/article_02.md::chunk-21"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully supports the answer regarding the founding year (1864) and its status as one of the oldest zoos globally and the oldest in Vietnam. Failure stage: none."
+    },
+    {
+      "case": 13,
+      "question": "Saigon Zoo and Botanical Gardens được thành lập năm nào, và bài viết mô tả đây là sở thú lâu đời thế nào?",
+      "config": "B_hybrid_rrf",
+      "answer": "Saigon Zoo and Botanical Gardens được thành lập vào năm 1864 [Document 1]. Bài viết mô tả đây là một trong những sở thú lâu đời nhất trên thế giới và là sở thú lâu đời nhất ở Việt Nam [Document 1].",
+      "retrieved_ids": [
+        "news/article_02.md::chunk-32",
+        "news/article_02.md::chunk-34",
+        "news/article_02.md::chunk-33",
+        "news/article_02.md::chunk-31",
+        "news/article_02.md::chunk-35"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully contains the needed evidence in chunks 32 and 33 with minimal irrelevant chunks, and generation accurately reflects it. Failure stage: none."
+    },
+    {
+      "case": 14,
+      "question": "Núi Bà Đen cao bao nhiêu và giữ vị trí nào ở miền Nam Việt Nam?",
+      "config": "A_dense_only",
+      "answer": "Núi Bà Đen cao 986m và là ngọn núi cao nhất miền Nam [Document 1].",
+      "retrieved_ids": [
+        "news/article_04.md::chunk-2",
+        "news/article_04.md::chunk-1",
+        "legal/vietnam_visitors_notes.md::chunk-15",
+        "news/article_03.md::chunk-57",
+        "news/article_03.md::chunk-58"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.8,
+      "notes": "Retrieved context fully supports the answer. Retrieved chunks 2 and 57 contain the exact information needed. Failure stage: none."
+    },
+    {
+      "case": 14,
+      "question": "Núi Bà Đen cao bao nhiêu và giữ vị trí nào ở miền Nam Việt Nam?",
+      "config": "B_hybrid_rrf",
+      "answer": "Núi Bà Đen có độ cao 986m và là ngọn núi cao nhất miền Nam [Document 1].",
+      "retrieved_ids": [
+        "news/article_04.md::chunk-2",
+        "news/article_04.md::chunk-1",
+        "news/article_03.md::chunk-57",
+        "news/article_03.md::chunk-18",
+        "news/article_03.md::chunk-58"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.75,
+      "notes": "Retrieved context contains all necessary evidence in chunk-2. Chunk-18 and chunk-58 are somewhat irrelevant, but overall performance is strong. Failure stage: none."
+    },
+    {
+      "case": 15,
+      "question": "Theo bài viết về biển Cửa Đại, ba con sông nào gặp nhau tại đây?",
+      "config": "A_dense_only",
+      "answer": "Theo bài viết về biển Cửa Đại, ba dòng sông gặp nhau tại đây là: sông Thu Bồn, sông Trường Giang và sông Đế Võng [Document 1].",
+      "retrieved_ids": [
+        "news/article_05.md::chunk-1",
+        "news/article_05.md::chunk-29",
+        "news/article_03.md::chunk-6",
+        "news/article_05.md::chunk-13",
+        "news/article_05.md::chunk-28"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Đầy đủ thông tin về 3 con sông (Thu Bồn, Trường Giang, Đế Võng) từ chunk 1. Các chunk khác không liên quan nhưng không ảnh hưởng đến câu trả lời. Lỗi phân đoạn: retrieval chứa nhiều nội dung không liên quan."
+    },
+    {
+      "case": 15,
+      "question": "Theo bài viết về biển Cửa Đại, ba con sông nào gặp nhau tại đây?",
+      "config": "B_hybrid_rrf",
+      "answer": "Theo bài viết về biển Cửa Đại, ba dòng sông gặp nhau tại đây là: Thu Bồn, Trường Giang, và Đế Võng [Document 1].",
+      "retrieved_ids": [
+        "news/article_05.md::chunk-1",
+        "news/article_05.md::chunk-29",
+        "news/article_03.md::chunk-6",
+        "news/article_05.md::chunk-2",
+        "news/article_03.md::chunk-63"
+      ],
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 0.2,
+      "notes": "Retrieved context chunk-1 contains the exact names of the three rivers, but other retrieved chunks are irrelevant. Failure stage: none."
+    }
+  ]
+}
