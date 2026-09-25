@@ -17,9 +17,15 @@ SCORE_THRESHOLD = float(os.getenv("SCORE_THRESHOLD", "").strip() or "0.5")
 DEFAULT_TOP_K = 5
 
 
-def _search_safely(search, query, top_k, method, stages=None):
+def _emit(on_stage, stage):
+    if on_stage:
+        on_stage(dict(stage))
+
+
+def _search_safely(search, query, top_k, method, stages=None, on_stage=None):
     started = time.perf_counter()
     stage = {"name": method, "status": "completed", "count": 0}
+    _emit(on_stage, {"name": method, "status": "running"})
     try:
         results = search(query, top_k=top_k)
         validate_search_results(results, top_k=top_k, expected_method=method)
@@ -37,6 +43,7 @@ def _search_safely(search, query, top_k, method, stages=None):
         stage["elapsed_ms"] = round((time.perf_counter() - started) * 1000, 2)
         if stages is not None:
             stages.append(stage)
+        _emit(on_stage, stage)
 
 
 def retrieve(
@@ -52,8 +59,9 @@ def retrieve(
 def retrieve_with_trace(
     query: str, top_k: int = DEFAULT_TOP_K,
     score_threshold: float = SCORE_THRESHOLD, use_reranking: bool = True,
+    *, on_stage=None,
 ) -> dict:
-    """Run retrieval once and expose measured rankings/stages for UI and evaluation."""
+    """Run retrieval once; optionally emit stage events as work starts/finishes."""
     if not isinstance(query, str):
         raise TypeError("query must be a string")
     if isinstance(top_k, bool) or not isinstance(top_k, int):
@@ -70,25 +78,41 @@ def retrieve_with_trace(
     if not query.strip() or top_k <= 0:
         return trace
     query = query.strip()
-    dense = _search_safely(semantic_search, query, top_k * 2, "dense", trace["stages"])
+    dense = _search_safely(semantic_search, query, top_k * 2, "dense", trace["stages"], on_stage)
     trace["dense"] = dense
     trace["best_cosine"] = max((item["score"] for item in dense), default=None)
     if use_reranking:
-        sparse = _search_safely(lexical_search, query, top_k * 2, "bm25", trace["stages"])
+        sparse = _search_safely(lexical_search, query, top_k * 2, "bm25", trace["stages"], on_stage)
         trace["bm25"] = sparse
         started = time.perf_counter()
+        _emit(on_stage, {"name": "rrf", "status": "running"})
         results = rerank_rrf([dense, sparse], top_k=top_k)
         trace["hybrid"] = results
         trace["stages"].append({"name": "rrf", "status": "completed", "count": len(results),
                                 "elapsed_ms": round((time.perf_counter() - started) * 1000, 2)})
+        _emit(on_stage, trace["stages"][-1])
     else:
         results = dense[:top_k]
+        for name in ("bm25", "rrf"):
+            stage = {"name": name, "status": "skipped", "count": 0, "elapsed_ms": 0}
+            trace["stages"].append(stage)
+            _emit(on_stage, stage)
     # An absent dense result always permits fallback, even with a negative threshold.
-    if not dense or max(item["score"] for item in dense) < score_threshold:
+    needs_fallback = not dense or trace["best_cosine"] < score_threshold
+    gate = {"name": "gate", "status": "completed", "count": len(results), "elapsed_ms": 0,
+            "score": trace["best_cosine"], "threshold": score_threshold,
+            "fallback_attempted": needs_fallback}
+    trace["stages"].append(gate)
+    _emit(on_stage, gate)
+    if needs_fallback:
         trace["fallback_attempted"] = True
-        fallback = _search_safely(pageindex_search, query, top_k, "pageindex", trace["stages"])
+        fallback = _search_safely(pageindex_search, query, top_k, "pageindex", trace["stages"], on_stage)
         if fallback:
             results = fallback
+    else:
+        stage = {"name": "pageindex", "status": "skipped", "count": 0, "elapsed_ms": 0}
+        trace["stages"].append(stage)
+        _emit(on_stage, stage)
     validate_search_results(results, top_k=top_k)
     trace["results"] = results
     return trace

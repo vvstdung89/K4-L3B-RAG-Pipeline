@@ -1,0 +1,257 @@
+[
+  {
+    "id": "Q01",
+    "category": "visa",
+    "question": "How long does my passport need to be valid after I leave Vietnam?",
+    "expected_answer": "The archived guidance requires six months of passport validity after the planned exit from Vietnam.",
+    "expected_context": [
+      "# exotravel vietnam visa information\n\nVIETNAM – TOURIST VISA REQUIREMENTS\n\nMost tourists visiting Vietnam require a Tourist Visa to enter the country and all travelers must have a\npassport valid for 6 months after their planned exit from Vietnam. EXO Travel can assist and facilitate\napplications for Tourist visas; for other types of visas, please consult the official representatives of\nVietnam (Embassy or Consulate) abroad.\n\nCOUNTRIES EXEMPT"
+    ],
+    "source_ids": [
+      "legal/exotravel_vietnam_visa_information.md::chunk-0"
+    ],
+    "source_paths": [
+      "legal/exotravel_vietnam_visa_information.md"
+    ],
+    "notes": "Corpus-grounded; archived travel/visa claims are not current-policy guidance.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q02",
+    "category": "visa",
+    "question": "I have a single-entry visa for Vietnam. Can I visit Cambodia for a few days and then come back on the same visa?",
+    "expected_answer": "The archived guidance says a single-entry visa cannot be reused after leaving Vietnam: a new visa is needed to re-enter, or a multiple-entry visa must be specifically applied for.",
+    "expected_context": [
+      "TYPES OF TOURIST VISAS AND VALIDITY\n\nA tourist visa is normally a Single Entry Visa, which means that if you exit Vietnam (for example for a\nside trip to Cambodia); you will require a new visa to re-enter.\n\nThere is also a Multiple-Entry Visa which has to be specifically applied for.\n\nThe Single entry visa is valid for 30 days.\n\nThe Multiple entry visa is valid either 28 or 45 days (see details below)\n\nHOW TO OBTAIN A TOURIST VISA\n\nCase 1: Visa application in your country before departure"
+    ],
+    "source_ids": [
+      "legal/exotravel_vietnam_visa_information.md::chunk-4"
+    ],
+    "source_paths": [
+      "legal/exotravel_vietnam_visa_information.md"
+    ],
+    "notes": "Corpus-grounded; archived travel/visa claims are not current-policy guidance.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q03",
+    "category": "visitor",
+    "question": "My passport expires in five months. Could I be turned away when I arrive in Vietnam?",
+    "expected_answer": "The archived visitor notes say entry may be refused with less than six months of passport validity.",
+    "expected_context": [
+      "Travel Advice\n\nPlease note that entry to Vietnam may be refused if your passport has less than\nsix months validity."
+    ],
+    "source_ids": [
+      "legal/vietnam_visitors_notes.md::chunk-2"
+    ],
+    "source_paths": [
+      "legal/vietnam_visitors_notes.md"
+    ],
+    "notes": "Corpus-grounded; archived travel/visa claims are not current-policy guidance.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q04",
+    "category": "visitor",
+    "question": "What happens if I stay in Vietnam after my visa expires?",
+    "expected_answer": "The archived visitor notes mention fines and/or imprisonment for overstaying a visa.",
+    "expected_context": [
+      "Visitors from visa countries, or whose visits are longer than 15 days, or who\nrequire more than one entry into Vietnam, or are returning to Vietnam within less\nthan three months from their previous visit must obtain a visa. Visas are usually\nvalid for one month. You should check the visa validity and conditions\ncarefully. There are fines and/or imprisonment if you overstay your visa.\n\nFor further information, check with your nearest Vietnamese Embassy."
+    ],
+    "source_ids": [
+      "legal/vietnam_visitors_notes.md::chunk-3"
+    ],
+    "source_paths": [
+      "legal/vietnam_visitors_notes.md"
+    ],
+    "notes": "Corpus-grounded; archived travel/visa claims are not current-policy guidance.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q05",
+    "category": "legal",
+    "question": "Mình sang tỉnh khác làm việc có lương thì có được tính là khách du lịch không?",
+    "expected_answer": "Theo định nghĩa trong Luật Du lịch 2017, người đi làm việc để nhận thu nhập ở nơi đến không được tính là khách du lịch.",
+    "expected_context": [
+      "đến du lịch.\n\nĐiều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n\n1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian\n\nkhông quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du\n\nlịch hoặc kết hợp với mục đích hợp pháp khác.\n\n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi học, làm việc để nhận thu nhập ở nơi\n\nđến."
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-2"
+    ],
+    "source_paths": [
+      "legal/LUẬT DU LỊCH.md"
+    ],
+    "notes": "Reference uses the supplied 2017 tourism law; no document or article-number hints are included in the user question.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q06",
+    "category": "legal",
+    "question": "Tài nguyên du lịch chỉ là cảnh đẹp thiên nhiên hay còn bao gồm văn hóa?",
+    "expected_answer": "Tài nguyên du lịch bao gồm cả tài nguyên du lịch tự nhiên và tài nguyên du lịch văn hóa.",
+    "expected_context": [
+      "đến.\n\n3. Hoạt động du lịch là hoạt động của khách du lịch, tổ chức, cá nhân kinh doanh du lịch và cơ quan, tổ chức, cá\n\nnhân, cộng đồng dân cư có liên quan đến du lịch.\n\n4. Tài nguyên du lịch là cảnh quan thiên nhiên, yếu tố tự nhiên và các giá trị văn hóa làm cơ sở để hình thành sản\n\nphẩm du lịch, khu du lịch, điểm du lịch, nhằm đáp ứng nhu cầu du lịch. Tài nguyên du lịch bao gồm tài nguyên du lịch\n\ntự nhiên và tài nguyên du lịch văn hóa."
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-3"
+    ],
+    "source_paths": [
+      "legal/LUẬT DU LỊCH.md"
+    ],
+    "notes": "Reference uses the supplied 2017 tourism law; no document or article-number hints are included in the user question.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q07",
+    "category": "legal",
+    "question": "Du lịch cộng đồng là gì, người dân địa phương có vai trò thế nào?",
+    "expected_answer": "Du lịch cộng đồng phát triển dựa trên các giá trị văn hóa của cộng đồng; người dân địa phương quản lý, tổ chức khai thác và hưởng lợi.",
+    "expected_context": [
+      "14. Phát triển du lịch bền vững là sự phát triển du lịch đáp ứng đồng thời các yêu cầu về kinh tế - xã hội và môi\n\ntrường, bảo đảm hài hòa lợi ích của các chủ thể tham gia hoạt động du lịch, không làm tổn hại đến khả năng đáp\n\nứng nhu cầu về du lịch trong tương lai.\n\n15. Du lịch cộng đồng là loại hình du lịch được phát triển trên cơ sở các giá trị văn hóa của cộng đồng, do cộng đồng\n\ndân cư quản lý, tổ chức khai thác và hưởng lợi."
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-7"
+    ],
+    "source_paths": [
+      "legal/LUẬT DU LỊCH.md"
+    ],
+    "notes": "Reference uses the supplied 2017 tourism law; no document or article-number hints are included in the user question.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q08",
+    "category": "attraction",
+    "question": "What address should I give my taxi driver to get to Hanoi Opera House?",
+    "expected_answer": "1 Trang Tien Street, Hoan Kiem District, Hanoi.",
+    "expected_context": [
+      "### 1.1. Location\n\nThe Opera House in Hanoi is located at 1 Trang Tien Street, Hoan Kiem District, the prime location that allows visitors to easily reach the theater from various directions. Surrounded by major streets such as Trang Tien, Ly Thai To, and Le Thanh Tong, the area is bustling with shops, restaurants, hotels, and other popular tourist attractions, making it a convenient and lively destination for both sightseeing and cultural exploration."
+    ],
+    "source_ids": [
+      "news/article_01.md::chunk-2"
+    ],
+    "source_paths": [
+      "news/article_01.md"
+    ],
+    "notes": "The source title mixes Saigon and Hanoi. The reference uses the Hanoi address in the body; the user is not given this source-location hint.",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q09",
+    "category": "attraction",
+    "question": "Where is Independence Palace in Ho Chi Minh City?",
+    "expected_answer": "135 Nam Ky Khoi Nghia Street, Ben Thanh Ward, District 1, Ho Chi Minh City.",
+    "expected_context": [
+      "## 1\\. Independence Palace\n\n| **Address:**135 Nam Ky Khoi Nghia Street, Ben Thanh Ward, District 1, Ho Chi Minh City.<br>**Opening Hours:** Daily from 07:00 AM - 06:00 PM.<br>**Ticket Price:** From VND 20,000 to 80,000 (USD 0.76 to 3.06) for general admission, VND 10,000 to 40,000 (USD 0.38 to 1.53) for limited admission.<br>**Website:**Independence Palace Official Site. |"
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-1"
+    ],
+    "source_paths": [
+      "news/article_02.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q10",
+    "category": "history",
+    "question": "Why is Independence Palace historically important?",
+    "expected_answer": "It was the presidential home and workplace during the Republic of Vietnam era. Tanks crashed through its gates on April 30, 1975, marking the end of the Vietnam War.",
+    "expected_context": [
+      "The Independence Palace, also known as the Reunification Palace, is one of the most iconic historical landmarks in Ho Chi Minh City, Vietnam. Built on the site of the former Norodom Palace, it served as the presidential home and workplace during the Republic of Vietnam era. Most notably, it marked the end of the Vietnam War when tanks crashed through its gates on April 30, 1975."
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-2"
+    ],
+    "source_paths": [
+      "news/article_02.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q11",
+    "category": "destination",
+    "question": "Lần đầu đi Hạ Long, mình có thể trải nghiệm những hoạt động gì?",
+    "expected_answer": "Có thể đi tàu ngắm vịnh, hang động và bãi biển, chèo kayak, ngắm Hạ Long bằng thủy phi cơ hoặc lưu trú trên du thuyền giữa vịnh.",
+    "expected_context": [
+      "Những trải nghiệm độc đáo và phổ biến nhất tại Hạ Long có thể kể đến như ngồi tàu ngắm vịnh Hạ Long và các hang động, bãi biển nổi tiếng, chèo kayak trên biển, ngắm Hạ Long từ trên cao bằng thuỷ phi cơ, lưu trú trên du thuyền giữa vịnh biển...\n\n**Vinpearl Resort & Spa Hạ Long** là khu nghỉ dưỡng nằm hoàn toàn trên biển. Nằm tại đảo Rều, khách sạn lấy cảm hứng thiết kế từ nhà hát của Pháp. Nơi đây như một cung điện tráng lệ, nguy nga với tông màu trắng chủ đạo.\n\n## 2\\. Địa điểm du lịch Huế"
+    ],
+    "source_ids": [
+      "news/article_03.md::chunk-3"
+    ],
+    "source_paths": [
+      "news/article_03.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q12",
+    "category": "food",
+    "question": "Đi Hạ Long thì nên thử đặc sản gì?",
+    "expected_answer": "Có thể thử chả mực, sá sùng, hàu nướng, chả rươi và sam biển.",
+    "expected_context": [
+      "**Du lịch Hạ Long** \\- 1 trong 7 kỳ quan thiên nhiên thế giới, du khách sẽ được khám phá nhiều hang động độc đáo, các hòn đảo tuyệt đẹp như đảo Mắt Rồng, Ngọc Vừng, hòn Con Cóc,... Cùng với cảnh đẹp, nơi đây còn có nhiều món đặc sản thơm ngon như chả mực, sá sùng, hàu nướng, chả rươi, sam biển,..."
+    ],
+    "source_ids": [
+      "news/article_03.md::chunk-2"
+    ],
+    "source_paths": [
+      "news/article_03.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q13",
+    "category": "destination",
+    "question": "Núi Bà Đen cao bao nhiêu mét?",
+    "expected_answer": "Núi Bà Đen cao 986 m.",
+    "expected_context": [
+      "**Du lịch Tây Ninh**, bạn có thể đến cắm trại, săn mây, check-in trên đỉnh **núi Bà Đen Tây Ninh**. Với độ cao 986m, đứng trên ngọn núi cao nhất miền Nam, du khách sẽ có những trải nghiệm thú vị khi săn mây, ngắm nhìn vẻ đẹp hùng vĩ của núi non. Hay địa danh Ma Thiên Lãnh nằm tiếp giáp núi Bà Đen lại sở hữu vẻ đẹp nên thơ với hàng trăm héc ta rừng nguyên sinh, những dòng suối chảy róc rách khiến tâm hồn du khách thư thái và nhẹ nhàng hơn."
+    ],
+    "source_ids": [
+      "news/article_04.md::chunk-2"
+    ],
+    "source_paths": [
+      "news/article_04.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q14",
+    "category": "beach",
+    "question": "Ở Hội An có bãi biển nào để tắm và chơi trên cát?",
+    "expected_answer": "Có thể đến biển Cửa Đại ở Hội An, nơi có công viên bờ biển, bãi tắm sạch và bãi cát rộng để tắm biển và vui chơi.",
+    "expected_context": [
+      "## 1\\. Biển Cửa Đại - Hội An, Quảng Nam\n\nBãi biển Cửa Đại là điểm đến cực hấp dẫn khi khám phá **du lịch Hội An**. Cửa Đại có bờ cát trắng mịn màng và là nơi “gặp gỡ” của 3 dòng sông: Thu Bồn, Trường Giang, Đế Võng. Bãi biển này lọt top những bãi biển đẹp nhất Việt Nam.\n\nGhé thăm biển Cửa Đại, bạn sẽ được hòa mình vào làn nước mát lạnh. Tại đây còn có công viên bờ biển và bãi tắm sạch sẽ để bạn thỏa thích tắm biển và khám phá các trò chơi trên bãi cát rộng lớn.\n\n## 2\\. Du lịch biển Phú Quốc"
+    ],
+    "source_ids": [
+      "news/article_05.md::chunk-1"
+    ],
+    "source_paths": [
+      "news/article_05.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  },
+  {
+    "id": "Q15",
+    "category": "beach",
+    "question": "Biển Sầm Sơn dài bao nhiêu, kéo dài từ đâu đến đâu?",
+    "expected_answer": "Biển Sầm Sơn trải dài 9 km, từ chân núi Trường Lệ tới xã Quảng Cư.",
+    "expected_context": [
+      "- **9 địa điểm du lịch biển miền Bắc đẹp và hút khách BẬC NHẤT**\n- **TOP 15 bãi biển đẹp ở Phú Quốc đang chờ bạn khám phá!**\n\n## 4\\. Bãi biển Sầm Sơn - Thanh Hóa\n\nBãi biển Sầm Sơn trải dài 9km, từ chân núi Trường Lệ tới xã Quảng Cư. Sầm Sơn là một trong 9 bãi biển đẹp nhất Việt Nam với bãi cát thoai thoải, nước biển trong veo và bờ biển bằng phẳng. Đây là điều kiện lý tưởng để bạn tắm biển và vui chơi cực đã."
+    ],
+    "source_ids": [
+      "news/article_05.md::chunk-6"
+    ],
+    "source_paths": [
+      "news/article_05.md"
+    ],
+    "notes": "",
+    "question_origin": "synthetic_user_style"
+  }
+]

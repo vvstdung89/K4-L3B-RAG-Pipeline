@@ -1,0 +1,4 @@
+[
+  {"id": "S01", "category": "out_of_domain", "question": "Công thức làm bánh pizza phô mai", "expected_behavior": "refuse"},
+  {"id": "S02", "category": "missing_evidence", "question": "What is the exact ticket price for a flight from Hanoi to Tokyo tomorrow?", "expected_behavior": "refuse"}
+]
