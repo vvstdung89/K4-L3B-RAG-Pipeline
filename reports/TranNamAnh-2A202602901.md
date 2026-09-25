@@ -12,6 +12,14 @@
 
 | Module/deliverable | Việc thực hiện | Bằng chứng | Trạng thái |
 |---|---|---|---|
+| Task 1 — Thu thập tài liệu pháp lý | Hoàn thiện bước thu thập tài liệu chính sách/quy định phục vụ corpus RAG. | `src/task1_collect_legal_docs.py`; `data/landing/legal/` | Done |
+| Task 2 — Crawl bài viết/tin tức | Hoàn thiện bước crawl bài viết và thông báo, lưu dữ liệu đầu vào theo cấu trúc pipeline. | `src/task2_crawl_news.py`; `data/landing/news/` | Done |
+| Task 3 — Chuẩn hóa Markdown | Hoàn thiện chuyển đổi, làm sạch và chuẩn hóa dữ liệu đầu vào sang Markdown. | `src/task3_convert_markdown.py`; `data/processed/` | Done |
+| Task 4 — Chunking, embedding và indexing | Hoàn thiện chia tài liệu thành chunks, tạo embeddings và lập chỉ mục để truy xuất. | `src/task4_chunking_indexing.py` | Done |
+| Task 5 — Semantic search | Hoàn thiện truy xuất ngữ nghĩa bằng ChromaDB, dùng chung hàm embedding với Task 4. | `src/task5_semantic_search.py` | Done |
+| Task 6 — Lexical search | Hoàn thiện truy xuất từ khóa bằng BM25 trên cùng corpus chunks. | `src/task6_lexical_search.py` | Done |
+| Task 7 — Kết hợp kết quả retrieval | Hoàn thiện Reciprocal Rank Fusion (RRF) để gộp kết quả dense và BM25 theo ID. | `src/task7_reranking.py` | Done |
+| Task 8 — PageIndex fallback | Hoàn thiện fallback PageIndex vectorless để truy xuất khi cần phương án dự phòng. | `src/task8_pageindex_vectorless.py` | Done |
 | Golden dataset | Tạo lại 15 câu hỏi và đáp án từ corpus chuẩn hóa; mỗi `expected_context` được đối chiếu với văn bản nguồn sau khi chuẩn hóa khoảng trắng. | `group_project/evaluation/golden_dataset.json` | Done |
 | A/B evaluation và báo cáo | Cấu hình Gemini embedding/generation/evaluator; build index 540 chunks theo quota free-tier; chạy đủ 15 golden cases trên hai cấu hình và ghi kết quả. | `src/task11_evaluation.py`; `reports/gemini_eval_results.json`; `reports/RESULT.md` | Done |
 
