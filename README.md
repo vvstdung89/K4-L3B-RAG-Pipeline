@@ -29,6 +29,17 @@ cp .env.example .env
 
 Điền API key cần dùng trong `.env`; không commit file này.
 
+Để crawl 5 bài du lịch mẫu, tạo API key trong [Firecrawl](https://firecrawl.dev/),
+điền vào `FIRECRAWL_API_KEY` trong `.env`. Nếu môi trường đã cài trước khi thêm
+Firecrawl, cài lại dependency rồi chạy:
+
+```bash
+python -m pip install -e .
+python -m src.task2_crawl_news
+```
+
+Kết quả được lưu dưới `data/landing/news/`.
+
 ```bash
 # 1. Thu thập và chuẩn hoá
 python -m src.task1_collect_legal_docs
