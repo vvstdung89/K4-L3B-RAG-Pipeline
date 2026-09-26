@@ -1,0 +1,6 @@
+{
+  "name": "SkyPolicy RAG",
+  "description": "Hệ thống RAG đối chiếu quy chuẩn hàng không Vietnam Airlines & du lịch Việt Nam với kiểm soát ảo giác và truy xuất đa tầng.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

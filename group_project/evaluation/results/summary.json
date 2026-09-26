@@ -1,0 +1,54 @@
+{
+  "evaluation_date": "2026-09-25",
+  "golden_size": 20,
+  "top_k": 5,
+  "generator": "openai/gpt-4o-mini",
+  "evaluator": "gpt-4o-mini",
+  "evaluator_embedding": "text-embedding-3-small",
+  "calibration": {
+    "configured_threshold": 0.75,
+    "in_domain": {
+      "min": 0.5013,
+      "mean": 0.6571,
+      "max": 0.7856
+    },
+    "out_of_domain": {
+      "min": 0.0924,
+      "mean": 0.2543,
+      "max": 0.3729
+    },
+    "in_domain_below_threshold": 19,
+    "out_of_domain_scores": {
+      "Công thức nấu phở bò": 0.3729,
+      "Giá bitcoin hôm nay": 0.2634,
+      "Cách cài đặt Python trên Windows": 0.2474,
+      "Kết quả trận Real Madrid gặp Barcelona": 0.2043,
+      "Lãi suất vay mua nhà ngân hàng Vietcombank": 0.3451,
+      "How to train a neural network with PyTorch": 0.0924
+    }
+  },
+  "configs": {
+    "A_dense": {
+      "faithfulness": 0.9375,
+      "answer_relevancy": 0.5314,
+      "context_recall": 0.8875,
+      "context_precision": 0.8978,
+      "average": 0.8135,
+      "refusals": 1,
+      "source_hit_rate": 1.0,
+      "latency_ms_mean": 2363,
+      "retrieval_ms_mean": 576
+    },
+    "B_hybrid_rrf": {
+      "faithfulness": 0.9554,
+      "answer_relevancy": 0.5606,
+      "context_recall": 0.8771,
+      "context_precision": 0.8817,
+      "average": 0.8187,
+      "refusals": 0,
+      "source_hit_rate": 1.0,
+      "latency_ms_mean": 2337,
+      "retrieval_ms_mean": 641
+    }
+  }
+}

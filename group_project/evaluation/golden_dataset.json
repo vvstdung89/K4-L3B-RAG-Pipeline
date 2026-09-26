@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Khách du lịch có những quyền gì theo Luật Du lịch 2017?",
+    "expected_answer": "Theo Điều 11, khách du lịch có quyền: sử dụng dịch vụ du lịch hoặc tự đi du lịch; yêu cầu cung cấp thông tin về chương trình, dịch vụ, điểm đến theo hợp đồng; được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu trú, đi lại; được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng; được đối xử bình đẳng, bảo đảm an toàn tính mạng, sức khỏe, tài sản, được cứu hộ cứu nạn khi khẩn cấp; khiếu nại, tố cáo, khởi kiện hành vi vi phạm; kiến nghị với tổ chức, cơ quan có thẩm quyền; được bồi thường thiệt hại theo quy định của pháp luật.",
+    "expected_context": "Điều 11. Quyền của khách du lịch 1. Sử dụng dịch vụ du lịch do tổ chức, cá nhân kinh doanh du lịch cung cấp hoặc tự đi du lịch. 2. Yêu cầu tổ chức, cá nhân kinh doanh du lịch cung cấp thông tin về chương trình, dịch vụ, điểm đến du lịch theo hợp đồng đã ký kết. 3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu cư trú, đi lại trên lãnh thổ Việt Nam... 5. Được đối xử bình đẳng; được bảo đảm an toàn về tính mạng, sức khỏe, tài sản khi sử dụng dịch vụ du lịch; được tôn trọng danh dự, nhân phẩm; được cứu hộ, cứu nạn trong trường hợp khẩn cấp. 6. Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch. 7. Kiến nghị ... 8. Được bồi thường thiệt hại theo quy định của pháp luật.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Khách du lịch có những nghĩa vụ gì?",
+    "expected_answer": "Theo Điều 12, khách du lịch phải: tuân thủ pháp luật Việt Nam và nơi đến, ứng xử văn minh, tôn trọng phong tục tập quán, bảo vệ tài nguyên và môi trường du lịch; thực hiện nội quy của khu, điểm du lịch, cơ sở dịch vụ; thanh toán tiền dịch vụ theo hợp đồng, phí, lệ phí; bồi thường thiệt hại theo pháp luật dân sự.",
+    "expected_context": "Điều 12. Nghĩa vụ của khách du lịch 1. Tuân thủ pháp luật Việt Nam và pháp luật của quốc gia, vùng lãnh thổ nơi đến du lịch; ứng xử văn minh, tôn trọng phong tục, tập quán, bản sắc văn hóa địa phương, bảo vệ và giữ gìn tài nguyên du lịch, môi trường du lịch... 2. Thực hiện nội quy của khu du lịch, điểm du lịch, cơ sở cung cấp dịch vụ du lịch. 3. Thanh toán tiền dịch vụ theo hợp đồng, phí, lệ phí và các khoản thu khác theo quy định của pháp luật. 4. Bồi thường thiệt hại theo quy định của pháp luật về dân sự.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Khách du lịch được chia thành những loại nào?",
+    "expected_answer": "Theo Điều 10, có ba loại: khách du lịch nội địa (công dân Việt Nam, người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt Nam), khách du lịch quốc tế đến Việt Nam (người nước ngoài, người Việt Nam định cư ở nước ngoài vào Việt Nam du lịch) và khách du lịch ra nước ngoài (công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài).",
+    "expected_context": "Điều 10. Các loại khách du lịch 1. Khách du lịch bao gồm khách du lịch nội địa, khách du lịch quốc tế đến Việt Nam và khách du lịch ra nước ngoài. 2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt Nam. 3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam định cư ở nước ngoài vào Việt Nam du lịch. 4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế là gì?",
+    "expected_answer": "Theo khoản 2 Điều 59: có quốc tịch Việt Nam, thường trú tại Việt Nam; có năng lực hành vi dân sự đầy đủ; không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; tốt nghiệp cao đẳng trở lên chuyên ngành hướng dẫn du lịch (hoặc cao đẳng trở lên ngành khác kèm chứng chỉ nghiệp vụ hướng dẫn du lịch quốc tế); và sử dụng thành thạo ngoại ngữ đăng ký hành nghề.",
+    "expected_context": "Điều 59. Điều kiện cấp thẻ hướng dẫn viên du lịch 1. Điều kiện cấp thẻ hướng dẫn viên du lịch nội địa bao gồm: a) Có quốc tịch Việt Nam, thường trú tại Việt Nam; b) Có năng lực hành vi dân sự đầy đủ; c) Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; ... 2. Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế bao gồm: a) Điều kiện quy định tại các điểm a, b và c khoản 1 Điều này; b) Tốt nghiệp cao đẳng trở lên chuyên ngành hướng dẫn du lịch; trường hợp tốt nghiệp cao đẳng trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ hướng dẫn du lịch quốc tế; c) Sử dụng thành thạo ngoại ngữ đăng ký hành nghề.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Thẻ hướng dẫn viên du lịch quốc tế và nội địa có thời hạn bao lâu?",
+    "expected_answer": "Thẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm (khoản 4 Điều 58).",
+    "expected_context": "4. Thẻ hướng dẫn viên du lịch bao gồm thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa và thẻ hướng dẫn viên du lịch tại điểm. Thẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Điều kiện kinh doanh dịch vụ lữ hành quốc tế gồm những gì?",
+    "expected_answer": "Theo khoản 2 Điều 31: là doanh nghiệp được thành lập theo pháp luật về doanh nghiệp; ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng; người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp cao đẳng trở lên chuyên ngành lữ hành, hoặc cao đẳng trở lên ngành khác kèm chứng chỉ nghiệp vụ điều hành du lịch quốc tế.",
+    "expected_context": "2. Điều kiện kinh doanh dịch vụ lữ hành quốc tế bao gồm: a) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp; b) Ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng; c) Người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp cao đẳng trở lên chuyên ngành về lữ hành; trường hợp tốt nghiệp cao đẳng trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ điều hành du lịch quốc tế.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Có những loại cơ sở lưu trú du lịch nào?",
+    "expected_answer": "Theo Điều 48 gồm: khách sạn; biệt thự du lịch; căn hộ du lịch; tàu thủy lưu trú du lịch; nhà nghỉ du lịch; nhà ở có phòng cho khách du lịch thuê; bãi cắm trại du lịch; và các cơ sở lưu trú du lịch khác.",
+    "expected_context": "Điều 48. Các loại cơ sở lưu trú du lịch 1. Khách sạn. 2. Biệt thự du lịch. 3. Căn hộ du lịch. 4. Tàu thủy lưu trú du lịch. 5. Nhà nghỉ du lịch. 6. Nhà ở có phòng cho khách du lịch thuê. 7. Bãi cắm trại du lịch. 8. Các cơ sở lưu trú du lịch khác.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Luật Du lịch 2017 có hiệu lực từ ngày nào?",
+    "expected_answer": "Luật có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018; Luật Du lịch số 44/2005/QH11 hết hiệu lực kể từ ngày đó (Điều 77).",
+    "expected_context": "Điều 77. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018. 2. Luật Du lịch số 44/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.",
+    "source": "LUẬT DU LỊCH.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Công dân Nhật Bản và Hàn Quốc được miễn visa vào Việt Nam bao nhiêu ngày?",
+    "expected_answer": "Người mang hộ chiếu Nhật Bản và Hàn Quốc không cần visa cho chuyến thăm tối đa 15 ngày.",
+    "expected_context": "Japanese and South Korean passport holders do not need a visa for a visit up to 15 days.",
+    "source": "exotravel_vietnam_visa_information.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Visa du lịch nhập cảnh một lần có hiệu lực bao lâu và nếu rời Việt Nam sang Campuchia thì có dùng lại được không?",
+    "expected_answer": "Visa nhập cảnh một lần (Single Entry) có hiệu lực 30 ngày; nếu rời Việt Nam (ví dụ đi Campuchia) thì cần visa mới để nhập cảnh lại. Visa nhiều lần (Multiple Entry) phải xin riêng và có hiệu lực 28 hoặc 45 ngày.",
+    "expected_context": "A tourist visa is normally a Single Entry Visa, which means that if you exit Vietnam (for example for a side trip to Cambodia); you will require a new visa to re-enter. There is also a Multiple-Entry Visa which has to be specifically applied for. The Single entry visa is valid for 30 days. The Multiple entry visa is valid either 28 or 45 days.",
+    "source": "exotravel_vietnam_visa_information.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Phí dán visa khi nhận visa tại sân bay (visa on arrival) là bao nhiêu và làm ở những cửa khẩu nào?",
+    "expected_answer": "Phí là 25 USD/người cho visa nhập cảnh một lần và 50 USD/người cho visa nhiều lần đến 28 ngày, trả bằng tiền mặt. Visa on arrival chỉ làm được tại sân bay quốc tế Hà Nội, TP. Hồ Chí Minh, Đà Nẵng và cửa khẩu đường bộ Mộc Bài (từ Campuchia).",
+    "expected_context": "You will then be asked to fill one more form, give 2 photos and pay USD 25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped into your passport. Such a VOA (Visa-On-Arrival) procedure is possible ONLY at the international airports in Hanoi, Ho Chi Minh City (Saigon) and Danang and at the land border of Moc Bai.",
+    "source": "exotravel_vietnam_visa_information.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Ở Việt Nam gọi số nào để báo cảnh sát, cứu hỏa và cấp cứu?",
+    "expected_answer": "Cảnh sát: 113; Cứu hỏa: 114; Cấp cứu: 115; Thông tin chung: 1080.",
+    "expected_context": "External contact details Police: Dial 113. Fire Station: Dial 114. Ambulance: Dial 115. General Information: Dial 1080.",
+    "source": "vietnam_visitors_notes.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Khí hậu TP. Hồ Chí Minh như thế nào, mùa mưa và mùa khô vào tháng mấy?",
+    "expected_answer": "TP. HCM có khí hậu nhiệt đới hai mùa mưa và khô, độ ẩm trung bình 75%. Mùa mưa thường từ tháng 5 đến cuối tháng 11; mùa khô từ tháng 12 đến tháng 4. Nhiệt độ trung bình 28°C.",
+    "expected_context": "HCMC has a tropical wet and dry climate, with an average humidity of 75%. The rainy season usually begins in May and ends in late November. The dry season lasts from December to April. The average temperature is 28 °C (82 °F).",
+    "source": "vietnam_visitors_notes.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Điện áp ở Việt Nam là bao nhiêu và dùng loại phích cắm nào?",
+    "expected_answer": "Nguồn điện 220V xoay chiều (AC); phổ biến là phích cắm hai chấu, một số khách sạn có ổ cắm 3 chấu kiểu Anh.",
+    "expected_context": "The power supply is 220 volts and AC. Two-pin plugs are the norm although some hotels also have UK-style 3-pin sockets.",
+    "source": "vietnam_visitors_notes.md",
+    "doc_type": "legal"
+  },
+  {
+    "question": "Giá vé tham quan Nhà hát Lớn Hà Nội là bao nhiêu và giờ tham quan có hướng dẫn là mấy giờ?",
+    "expected_answer": "Vé vào cửa 120.000 VND/người; tour tham quan có hướng dẫn mở hằng ngày từ 10:30 đến 12:00, biểu diễn buổi tối thường bắt đầu từ 19:30. Vé xem biểu diễn từ 300.000 đến hơn 1.500.000 VND.",
+    "expected_context": "The Hanoi Opera House is open for guided tours every day of the week, from 10:30 AM to 12:00 PM, while evening performances usually begin from 7:30 PM onward. The entrance fee to the Opera House is 120,000 VND per person... ticket prices range from 300,000 VND to over 1,500,000 VND.",
+    "source": "article_01.md",
+    "doc_type": "news"
+  },
+  {
+    "question": "Địa đạo Củ Chi mở cửa lúc mấy giờ và giá vé khu Bến Dình là bao nhiêu?",
+    "expected_answer": "Địa đạo Củ Chi mở cửa 07:00–17:00 hằng ngày; vé khu Bến Dình 110.000 VND/người (khu Bến Dược 90.000 VND/người). Nên đi buổi sáng ngày thường, mùa khô từ tháng 12 đến tháng 4.",
+    "expected_context": "Cu Chi Tunnels. Opening hours: 07:00 AM - 05:00 PM daily. Entrance fee: VND 110,000 (approx. USD 4.50) per person for Ben Dinh site; VND 90,000 (approx. USD 3.4) per person for Ben Duoc site. The best time to visit Cu Chi Tunnels is in the morning on weekdays... The dry season from December to April.",
+    "source": "article_02.md",
+    "doc_type": "news"
+  },
+  {
+    "question": "Landmark 81 cao bao nhiêu mét và thời điểm nào đẹp nhất để tham quan?",
+    "expected_answer": "Landmark 81 cao 461,2 m với 81 tầng, là tòa nhà cao nhất Việt Nam. Thời điểm đẹp nhất là chiều muộn đến tối, khoảng 16:00–17:00 để ngắm hoàng hôn trên sông Sài Gòn; nên đi ngày thường.",
+    "expected_context": "Landmark 81 is Vietnam's tallest skyscraper and the second tallest in Southeast Asia, standing at 461.2 meters with 81 floors. The best time to visit Landmark 81 is in the late afternoon to evening. Arriving around 4:00 to 5:00 PM allows visitors to enjoy daylight city views, capture the sunset over the Saigon River.",
+    "source": "article_02.md",
+    "doc_type": "news"
+  },
+  {
+    "question": "Vịnh Hạ Long có diện tích bao nhiêu và gồm bao nhiêu hòn đảo?",
+    "expected_answer": "Hạ Long có diện tích khoảng 1.553 km² với 1.969 hòn đảo đá vôi; là một trong 7 kỳ quan thiên nhiên thế giới.",
+    "expected_context": "Hạ Long Quảng Ninh là một trong các địa điểm du lịch miền Bắc hấp dẫn nhất hiện nay. Với diện tích lên đến 1.553km2 bao gồm 1.969 hòn đảo đá vôi mang nhiều hình thù đẹp mắt, sinh động. Du lịch Hạ Long - 1 trong 7 kỳ quan thiên nhiên thế giới.",
+    "source": "article_03.md",
+    "doc_type": "news"
+  },
+  {
+    "question": "Ở Ninh Bình có những cảnh đẹp nổi tiếng nào?",
+    "expected_answer": "Ninh Bình nổi tiếng với Tràng An, Tam Cốc Bích Động, chùa Bái Đính và Hoa Lư — cảnh núi đá vôi, sông nước, có thể ngồi thuyền ngắm cảnh.",
+    "expected_context": "Nhắc đến những cảnh đẹp Việt Nam miền Bắc không thể bỏ qua Tràng An Ninh Bình, Tam Cốc Bích Động, chùa Bái Đính hay Hoa Lư… Mảnh đất cố đô thu hút du khách bởi khung cảnh tuyệt đẹp từ những dãy núi đá vôi, sông nước.",
+    "source": "article_04.md",
+    "doc_type": "news"
+  },
+  {
+    "question": "Bãi Kỳ Co ở Quy Nhơn có gì đặc biệt?",
+    "expected_answer": "Bãi Kỳ Co được ví như \"Maldives tại Việt Nam\", ba mặt giáp núi một mặt giáp biển, hình vầng trăng khuyết; nước biển mát và nông, bơi ra xa 100 m nước chỉ ngang cổ.",
+    "expected_context": "Bãi Kỳ Co được ví von như “Maldives tại Việt Nam”. Bãi Kỳ Co có địa thế rất độc đáo, ba mặt giáp núi và một mặt giáp biển. Bãi biển mang dáng hình của một vầng trăng khuyết cực đẹp. Đặc biệt, nước biển ở đây cực mát và khá nông. Bạn sẽ được thỏa thích ngâm mình trong làn nước mát và bơi ra xa 100 m mà nước cũng chỉ ngang cổ.",
+    "source": "article_05.md",
+    "doc_type": "news"
+  }
+]

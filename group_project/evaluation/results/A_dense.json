@@ -1,0 +1,602 @@
+[
+  {
+    "question": "Khách du lịch có những quyền gì theo Luật Du lịch 2017?",
+    "answer": "Khách du lịch có những quyền sau theo Luật Du lịch 2017:\n\n- Sử dụng dịch vụ du lịch do tổ chức, cá nhân kinh doanh du lịch cung cấp hoặc tự đi du lịch [1].\n- Yêu cầu tổ chức, cá nhân kinh doanh du lịch cung cấp thông tin về chương trình, dịch vụ, điểm đến du lịch theo hợp đồng đã ký kết [1].\n- Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu cư trú, đi lại trên lãnh thổ Việt Nam [5].\n- Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ chức, cá nhân kinh doanh, cung cấp dịch vụ du lịch [5].\n- Được đối xử bình đẳng; được bảo đảm an toàn về tính mạng, sức khỏe, tài sản khi sử dụng dịch vụ du lịch [5].\n- Được tôn trọng danh dự, nhân phẩm; được cứu hộ, cứu nạn trong trường hợp khẩn cấp [4].\n- Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch [4].\n- Kiến nghị với tổ chức, cá nhân quản lý khu du lịch, điểm du lịch, cơ sở cung cấp dịch vụ du lịch và cơ quan nhà nước có thẩm quyền về các vấn đề liên quan đến hoạt động du lịch [4].\n- Được bồi thường thiệt hại theo quy định của pháp luật [4].",
+    "refused": false,
+    "contexts": [
+      "lịch. \n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài. \nĐiều 11. Quyền của khách du lịch \n1. Sử dụng dịch vụ du lịch do tổ chức, cá nhân kinh doanh du lịch cung cấp hoặc tự đi du lịch. \n2. Yêu cầu tổ chức, cá nhân kinh doanh du lịch cung cấp thông tin về chương trình, dịch vụ, điểm đến du lịch theo \nhợp đồng đã ký kết.",
+      "QUỐC HỘI​\n-------- \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM​\nĐộc lập - Tự do - Hạnh phúc​\n--------------- \nLuật số: 09/2017/QH14 \nHà Nội, ngày 19 tháng 6 năm 2017 \n  \nLUẬT \nDU LỊCH \nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; \nQuốc hội ban hành Luật Du lịch. \nChương I \nNHỮNG QUY ĐỊNH CHUNG \nĐiều 1. Phạm vi điều chỉnh \nLuật này quy định về tài nguyên du lịch, phát triển sản phẩm du lịch và hoạt động du lịch; quyền, nghĩa vụ của khách",
+      "đến du lịch. \nĐiều 3. Giải thích từ ngữ \nTrong Luật này, các từ ngữ dưới đây được hiểu như sau: \n1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian \nkhông quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du \nlịch hoặc kết hợp với mục đích hợp pháp khác. \n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi học, làm việc để nhận thu nhập ở nơi \nđến.",
+      "tôn trọng danh dự, nhân phẩm; được cứu hộ, cứu nạn trong trường hợp khẩn cấp. \n6. Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch. \n7. Kiến nghị với tổ chức, cá nhân quản lý khu du lịch, điểm du lịch, cơ sở cung cấp dịch vụ du lịch và cơ quan nhà \nnước có thẩm quyền về các vấn đề liên quan đến hoạt động du lịch. \n8. Được bồi thường thiệt hại theo quy định của pháp luật. \nĐiều 12. Nghĩa vụ của khách du lịch",
+      "hợp đồng đã ký kết. \n3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu cư trú, đi lại trên lãnh thổ Việt Nam \nphù hợp với quy định của pháp luật và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành \nviên. \n4. Được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng đã giao kết với tổ chức, cá nhân kinh doanh, cung cấp \ndịch vụ du lịch. \n5. Được đối xử bình đẳng; được bảo đảm an toàn về tính mạng, sức khỏe, tài sản khi sử dụng dịch vụ du lịch; được"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-26",
+      "legal/LUẬT DU LỊCH.md::chunk-0",
+      "legal/LUẬT DU LỊCH.md::chunk-2",
+      "legal/LUẬT DU LỊCH.md::chunk-28",
+      "legal/LUẬT DU LỊCH.md::chunk-27"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo Điều 11, khách du lịch có quyền: sử dụng dịch vụ du lịch hoặc tự đi du lịch; yêu cầu cung cấp thông tin về chương trình, dịch vụ, điểm đến theo hợp đồng; được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu trú, đi lại; được bảo đảm quyền và lợi ích hợp pháp theo hợp đồng; được đối xử bình đẳng, bảo đảm an toàn tính mạng, sức khỏe, tài sản, được cứu hộ cứu nạn khi khẩn cấp; khiếu nại, tố cáo, khởi kiện hành vi vi phạm; kiến nghị với tổ chức, cơ quan có thẩm quyền; được bồi thường thiệt hại theo quy định của pháp luật.",
+    "expected_context": "Điều 11. Quyền của khách du lịch 1. Sử dụng dịch vụ du lịch do tổ chức, cá nhân kinh doanh du lịch cung cấp hoặc tự đi du lịch. 2. Yêu cầu tổ chức, cá nhân kinh doanh du lịch cung cấp thông tin về chương trình, dịch vụ, điểm đến du lịch theo hợp đồng đã ký kết. 3. Được tạo điều kiện thuận lợi về xuất cảnh, nhập cảnh, quá cảnh, hải quan, lưu cư trú, đi lại trên lãnh thổ Việt Nam... 5. Được đối xử bình đẳng; được bảo đảm an toàn về tính mạng, sức khỏe, tài sản khi sử dụng dịch vụ du lịch; được tôn trọng danh dự, nhân phẩm; được cứu hộ, cứu nạn trong trường hợp khẩn cấp. 6. Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch. 7. Kiến nghị ... 8. Được bồi thường thiệt hại theo quy định của pháp luật.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 5536,
+    "retrieval_ms": 507,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6795,
+    "context_recall": 1.0,
+    "context_precision": 0.8875
+  },
+  {
+    "question": "Khách du lịch có những nghĩa vụ gì?",
+    "answer": "Khách du lịch có những nghĩa vụ sau:\n\n- Tôn trọng danh dự, nhân phẩm của người khác.\n- Tham gia cứu hộ, cứu nạn trong trường hợp khẩn cấp.\n- Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch.\n- Kiến nghị với tổ chức, cá nhân quản lý khu du lịch, điểm du lịch và cơ quan nhà nước có thẩm quyền về các vấn đề liên quan đến hoạt động du lịch.\n- Bồi thường thiệt hại theo quy định của pháp luật.\n- Bảo vệ tài nguyên du lịch [1][5].",
+    "refused": false,
+    "contexts": [
+      "tôn trọng danh dự, nhân phẩm; được cứu hộ, cứu nạn trong trường hợp khẩn cấp. \n6. Khiếu nại, tố cáo, khởi kiện hành vi vi phạm pháp luật về du lịch. \n7. Kiến nghị với tổ chức, cá nhân quản lý khu du lịch, điểm du lịch, cơ sở cung cấp dịch vụ du lịch và cơ quan nhà \nnước có thẩm quyền về các vấn đề liên quan đến hoạt động du lịch. \n8. Được bồi thường thiệt hại theo quy định của pháp luật. \nĐiều 12. Nghĩa vụ của khách du lịch",
+      "c) Thông tin cho khách du lịch về chương trình du lịch, dịch vụ và các quyền, lợi ích hợp pháp của khách du lịch; \nd) Hướng dẫn khách du lịch theo đúng chương trình du lịch, có thái độ văn minh, tận tình và chu đáo với khách du \nlịch; báo cáo người phụ trách kinh doanh dịch vụ lữ hành quyết định thay đổi chương trình du lịch trong trường hợp \nkhách du lịch có yêu cầu; \nđ) Có trách nhiệm hỗ trợ trong việc bảo đảm an toàn tính mạng, sức khỏe, tài sản của khách du lịch;",
+      "cứu hộ, cứu nạn cho khách du lịch. \n3. Tổ chức, cá nhân kinh doanh du lịch có trách nhiệm cảnh báo nguy cơ gây nguy hiểm cho khách du lịch; thông \nbáo, chỉ dẫn kịp thời cho khách du lịch trong trường hợp khẩn cấp; áp dụng biện pháp cần thiết, phối hợp với cơ \nquan, tổ chức, cá nhân có liên quan trong việc cứu hộ, cứu nạn cho khách du lịch. \nĐiều 14. Giải quyết kiến nghị của khách du lịch",
+      "d) Trong trường hợp khẩn cấp hoặc bất khả kháng, được quyền thay đổi chương trình du lịch, điều chỉnh tiêu chuẩn, \ndịch vụ của khách du lịch. \n2. Hướng dẫn viên du lịch có nghĩa vụ sau đây: \na) Hướng dẫn khách du lịch theo nhiệm vụ được giao hoặc theo hợp đồng hướng dẫn; \nb) Tuân thủ, hướng dẫn khách du lịch tuân thủ pháp luật Việt Nam, pháp luật nơi đến du lịch, nội quy nơi đến tham \nquan; tôn trọng phong tục, tập quán của địa phương;",
+      "nguyên du lịch, tạo điều kiện thuận lợi cho khách du lịch tham quan, thụ hưởng giá trị của tài nguyên du lịch; phối \nhợp với cơ quan quản lý nhà nước về du lịch có thẩm quyền trong việc bảo vệ và khai thác tài nguyên du lịch cho \ncác mục tiêu kinh tế khác. \n4. Khách du lịch, tổ chức, cá nhân kinh doanh du lịch, cộng đồng dân cư có trách nhiệm bảo vệ tài nguyên du lịch. \nMục 2. PHÁT TRIỂN SẢN PHẨM DU LỊCH \nĐiều 18. Xây dựng, phát triển sản phẩm du lịch"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-28",
+      "legal/LUẬT DU LỊCH.md::chunk-154",
+      "legal/LUẬT DU LỊCH.md::chunk-31",
+      "legal/LUẬT DU LỊCH.md::chunk-153",
+      "legal/LUẬT DU LỊCH.md::chunk-37"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo Điều 12, khách du lịch phải: tuân thủ pháp luật Việt Nam và nơi đến, ứng xử văn minh, tôn trọng phong tục tập quán, bảo vệ tài nguyên và môi trường du lịch; thực hiện nội quy của khu, điểm du lịch, cơ sở dịch vụ; thanh toán tiền dịch vụ theo hợp đồng, phí, lệ phí; bồi thường thiệt hại theo pháp luật dân sự.",
+    "expected_context": "Điều 12. Nghĩa vụ của khách du lịch 1. Tuân thủ pháp luật Việt Nam và pháp luật của quốc gia, vùng lãnh thổ nơi đến du lịch; ứng xử văn minh, tôn trọng phong tục, tập quán, bản sắc văn hóa địa phương, bảo vệ và giữ gìn tài nguyên du lịch, môi trường du lịch... 2. Thực hiện nội quy của khu du lịch, điểm du lịch, cơ sở cung cấp dịch vụ du lịch. 3. Thanh toán tiền dịch vụ theo hợp đồng, phí, lệ phí và các khoản thu khác theo quy định của pháp luật. 4. Bồi thường thiệt hại theo quy định của pháp luật về dân sự.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 2664,
+    "retrieval_ms": 515,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4316,
+    "context_recall": 0.75,
+    "context_precision": 0.8875
+  },
+  {
+    "question": "Khách du lịch được chia thành những loại nào?",
+    "answer": "- Khách du lịch được chia thành:\n  - Khách du lịch nội địa: Công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt Nam.\n  - Khách du lịch quốc tế: Người nước ngoài và người Việt Nam định cư ở nước ngoài vào Việt Nam du lịch [1][5].",
+    "refused": false,
+    "contexts": [
+      "KHÁCH DU LỊCH \nĐiều 10. Các loại khách du lịch \n1. Khách du lịch bao gồm khách du lịch nội địa, khách du lịch quốc tế đến Việt Nam và khách du lịch ra nước ngoài. \n2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt \nNam. \n3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam định cư ở nước ngoài vào Việt Nam du \nlịch.",
+      "khách du lịch. \n6. Khu du lịch là khu vực có ưu thế về tài nguyên du lịch, được quy hoạch, đầu tư phát triển nhằm đáp ứng nhu cầu \nđa dạng của khách du lịch. Khu du lịch bao gồm khu du lịch cấp tỉnh và khu du lịch quốc gia. \n7. Điểm du lịch là nơi có tài nguyên du lịch được đầu tư, khai thác phục vụ khách du lịch. \n8. Chương trình du lịch là văn bản thể hiện lịch trình, dịch vụ và giá bán được định trước cho chuyến đi của khách du \nlịch từ điểm xuất phát đến điểm kết thúc chuyến đi.",
+      "đến du lịch. \nĐiều 3. Giải thích từ ngữ \nTrong Luật này, các từ ngữ dưới đây được hiểu như sau: \n1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian \nkhông quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du \nlịch hoặc kết hợp với mục đích hợp pháp khác. \n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi học, làm việc để nhận thu nhập ở nơi \nđến.",
+      "đến. \n3. Hoạt động du lịch là hoạt động của khách du lịch, tổ chức, cá nhân kinh doanh du lịch và cơ quan, tổ chức, cá \nnhân, cộng đồng dân cư có liên quan đến du lịch.",
+      "7. Hành nghề hướng dẫn du lịch khi không đủ điều kiện hành nghề. \n8. Quảng cáo không đúng loại, hạng cơ sở lưu trú du lịch đã được cơ quan nhà nước có thẩm quyền công nhận; \nquảng cáo về loại, hạng cơ sở lưu trú du lịch khi chưa được cơ quan nhà nước có thẩm quyền công nhận. \n9. Các hành vi bị nghiêm cấm khác theo quy định của luật khác có liên quan. \nChương II \nKHÁCH DU LỊCH \nĐiều 10. Các loại khách du lịch"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-25",
+      "legal/LUẬT DU LỊCH.md::chunk-5",
+      "legal/LUẬT DU LỊCH.md::chunk-2",
+      "legal/LUẬT DU LỊCH.md::chunk-3",
+      "legal/LUẬT DU LỊCH.md::chunk-24"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo Điều 10, có ba loại: khách du lịch nội địa (công dân Việt Nam, người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt Nam), khách du lịch quốc tế đến Việt Nam (người nước ngoài, người Việt Nam định cư ở nước ngoài vào Việt Nam du lịch) và khách du lịch ra nước ngoài (công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài).",
+    "expected_context": "Điều 10. Các loại khách du lịch 1. Khách du lịch bao gồm khách du lịch nội địa, khách du lịch quốc tế đến Việt Nam và khách du lịch ra nước ngoài. 2. Khách du lịch nội địa là công dân Việt Nam, người nước ngoài cư trú ở Việt Nam đi du lịch trong lãnh thổ Việt Nam. 3. Khách du lịch quốc tế đến Việt Nam là người nước ngoài, người Việt Nam định cư ở nước ngoài vào Việt Nam du lịch. 4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 2169,
+    "retrieval_ms": 574,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6135,
+    "context_recall": 1.0,
+    "context_precision": 0.7556
+  },
+  {
+    "question": "Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế là gì?",
+    "answer": "- Có quốc tịch Việt Nam, thường trú tại Việt Nam.\n- Có năng lực hành vi dân sự đầy đủ.\n- Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy.\n- Tốt nghiệp trung cấp trở lên chuyên ngành hướng dẫn du lịch; nếu tốt nghiệp trung cấp trở lên chuyên ngành khác thì phải có chứng chỉ nghiệp vụ hướng dẫn du lịch nội địa [1].",
+    "refused": false,
+    "contexts": [
+      "a) Có quốc tịch Việt Nam, thường trú tại Việt Nam; \nb) Có năng lực hành vi dân sự đầy đủ; \nc) Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; \nd) Tốt nghiệp trung cấp trở lên chuyên ngành hướng dẫn du lịch; trường hợp tốt nghiệp trung cấp trở lên chuyên \nngành khác phải có chứng chỉ nghiệp vụ hướng dẫn du lịch nội địa. \n2. Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế bao gồm: \na) Điều kiện quy định tại các điểm a, b và c khoản 1 Điều này;",
+      "b) Tốt nghiệp cao đẳng trở lên chuyên ngành hướng dẫn du lịch; trường hợp tốt nghiệp cao đẳng trở lên chuyên \nngành khác phải có chứng chỉ nghiệp vụ hướng dẫn du lịch quốc tế; \nc) Sử dụng thành thạo ngoại ngữ đăng ký hành nghề. \n3. Điều kiện cấp thẻ hướng dẫn viên du lịch tại điểm bao gồm: \na) Điều kiện quy định tại các điểm a, b và c khoản 1 Điều này; \nb) Đạt yêu cầu kiểm tra nghiệp vụ hướng dẫn du lịch tại điểm do cơ quan chuyên môn về du lịch cấp tỉnh tổ chức.",
+      "lịch, điểm du lịch. \n4. Thẻ hướng dẫn viên du lịch bao gồm thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa và thẻ \nhướng dẫn viên du lịch tại điểm. \nThẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm. \n5. Phí thẩm định cấp thẻ hướng dẫn viên du lịch được thực hiện theo quy định của pháp luật về phí và lệ phí. \nĐiều 59. Điều kiện cấp thẻ hướng dẫn viên du lịch \n1. Điều kiện cấp thẻ hướng dẫn viên du lịch nội địa bao gồm:",
+      "c) Người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp trung cấp trở lên chuyên ngành về lữ hành; trường \nhợp tốt nghiệp trung cấp trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ điều hành du lịch nội địa. \n2. Điều kiện kinh doanh dịch vụ lữ hành quốc tế bao gồm: \na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp; \nb) Ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng;",
+      "4. Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chi tiết về mẫu thẻ, nội dung đào tạo, bồi dưỡng, tổ chức thi, \ncấp chứng chỉ nghiệp vụ hướng dẫn du lịch; nội dung kiểm tra nghiệp vụ hướng dẫn du lịch tại điểm; tiêu chuẩn \nthành thạo ngoại ngữ. \nĐiều 60. Hồ sơ, trình tự, thủ tục, thẩm quyền cấp thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du \nlịch nội địa \n1. Hồ sơ đề nghị cấp thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa bao gồm:"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-136",
+      "legal/LUẬT DU LỊCH.md::chunk-137",
+      "legal/LUẬT DU LỊCH.md::chunk-135",
+      "legal/LUẬT DU LỊCH.md::chunk-67",
+      "legal/LUẬT DU LỊCH.md::chunk-138"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo khoản 2 Điều 59: có quốc tịch Việt Nam, thường trú tại Việt Nam; có năng lực hành vi dân sự đầy đủ; không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; tốt nghiệp cao đẳng trở lên chuyên ngành hướng dẫn du lịch (hoặc cao đẳng trở lên ngành khác kèm chứng chỉ nghiệp vụ hướng dẫn du lịch quốc tế); và sử dụng thành thạo ngoại ngữ đăng ký hành nghề.",
+    "expected_context": "Điều 59. Điều kiện cấp thẻ hướng dẫn viên du lịch 1. Điều kiện cấp thẻ hướng dẫn viên du lịch nội địa bao gồm: a) Có quốc tịch Việt Nam, thường trú tại Việt Nam; b) Có năng lực hành vi dân sự đầy đủ; c) Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; ... 2. Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế bao gồm: a) Điều kiện quy định tại các điểm a, b và c khoản 1 Điều này; b) Tốt nghiệp cao đẳng trở lên chuyên ngành hướng dẫn du lịch; trường hợp tốt nghiệp cao đẳng trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ hướng dẫn du lịch quốc tế; c) Sử dụng thành thạo ngoại ngữ đăng ký hành nghề.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 2197,
+    "retrieval_ms": 531,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5773,
+    "context_recall": 1.0,
+    "context_precision": 0.8875
+  },
+  {
+    "question": "Thẻ hướng dẫn viên du lịch quốc tế và nội địa có thời hạn bao lâu?",
+    "answer": "- Thẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm [1].",
+    "refused": false,
+    "contexts": [
+      "lịch, điểm du lịch. \n4. Thẻ hướng dẫn viên du lịch bao gồm thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa và thẻ \nhướng dẫn viên du lịch tại điểm. \nThẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm. \n5. Phí thẩm định cấp thẻ hướng dẫn viên du lịch được thực hiện theo quy định của pháp luật về phí và lệ phí. \nĐiều 59. Điều kiện cấp thẻ hướng dẫn viên du lịch \n1. Điều kiện cấp thẻ hướng dẫn viên du lịch nội địa bao gồm:",
+      "b) Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan nhà nước có thẩm quyền cấp thẻ có trách \nnhiệm cấp đổi thẻ hướng dẫn viên du lịch cho người đề nghị; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ \nlý do. \n4. Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chi tiết về khóa cập nhật kiến thức, giấy chứng nhận khóa \ncập nhật kiến thức cho hướng dẫn viên du lịch quốc tế, hướng dẫn viên du lịch nội địa. \nĐiều 63. Cấp lại thẻ hướng dẫn viên du lịch",
+      "a) Có quốc tịch Việt Nam, thường trú tại Việt Nam; \nb) Có năng lực hành vi dân sự đầy đủ; \nc) Không mắc bệnh truyền nhiễm, không sử dụng chất ma túy; \nd) Tốt nghiệp trung cấp trở lên chuyên ngành hướng dẫn du lịch; trường hợp tốt nghiệp trung cấp trở lên chuyên \nngành khác phải có chứng chỉ nghiệp vụ hướng dẫn du lịch nội địa. \n2. Điều kiện cấp thẻ hướng dẫn viên du lịch quốc tế bao gồm: \na) Điều kiện quy định tại các điểm a, b và c khoản 1 Điều này;",
+      "4. Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định chi tiết về mẫu thẻ, nội dung đào tạo, bồi dưỡng, tổ chức thi, \ncấp chứng chỉ nghiệp vụ hướng dẫn du lịch; nội dung kiểm tra nghiệp vụ hướng dẫn du lịch tại điểm; tiêu chuẩn \nthành thạo ngoại ngữ. \nĐiều 60. Hồ sơ, trình tự, thủ tục, thẩm quyền cấp thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du \nlịch nội địa \n1. Hồ sơ đề nghị cấp thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa bao gồm:",
+      "c) Bản sao có chứng thực các văn bằng, chứng chỉ tương ứng với điều kiện quy định tại điểm d khoản 1 hoặc điểm b \nvà điểm c khoản 2 Điều 59 của Luật này; \nd) Giấy chứng nhận sức khỏe do cơ sở khám bệnh, chữa bệnh có thẩm quyền cấp trong thời hạn không quá 06 \ntháng tính đến thời điểm nộp hồ sơ; \nđ) 02 ảnh chân dung màu cỡ 3cm x 4cm. \n2. Trình tự, thủ tục, thẩm quyền cấp thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa được quy \nđịnh như sau:"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-135",
+      "legal/LUẬT DU LỊCH.md::chunk-146",
+      "legal/LUẬT DU LỊCH.md::chunk-136",
+      "legal/LUẬT DU LỊCH.md::chunk-138",
+      "legal/LUẬT DU LỊCH.md::chunk-140"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Thẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm (khoản 4 Điều 58).",
+    "expected_context": "4. Thẻ hướng dẫn viên du lịch bao gồm thẻ hướng dẫn viên du lịch quốc tế, thẻ hướng dẫn viên du lịch nội địa và thẻ hướng dẫn viên du lịch tại điểm. Thẻ hướng dẫn viên du lịch quốc tế và thẻ hướng dẫn viên du lịch nội địa có thời hạn 05 năm.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 2019,
+    "retrieval_ms": 551,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5487,
+    "context_recall": 1.0,
+    "context_precision": 0.75
+  },
+  {
+    "question": "Điều kiện kinh doanh dịch vụ lữ hành quốc tế gồm những gì?",
+    "answer": "- Doanh nghiệp phải được thành lập theo quy định của pháp luật về doanh nghiệp.\n- Doanh nghiệp phải ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng [1][4].",
+    "refused": false,
+    "contexts": [
+      "c) Người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp trung cấp trở lên chuyên ngành về lữ hành; trường \nhợp tốt nghiệp trung cấp trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ điều hành du lịch nội địa. \n2. Điều kiện kinh doanh dịch vụ lữ hành quốc tế bao gồm: \na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp; \nb) Ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng;",
+      "c) Người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp cao đẳng trở lên chuyên ngành về lữ hành; trường \nhợp tốt nghiệp cao đẳng trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ điều hành du lịch quốc tế. \n3. Doanh nghiệp đáp ứng các điều kiện kinh doanh quy định tại khoản 1 Điều này được cấp Giấy phép kinh doanh \ndịch vụ lữ hành nội địa; đáp ứng các điều kiện kinh doanh quy định tại khoản 2 Điều này được cấp Giấy phép kinh \ndoanh dịch vụ lữ hành quốc tế.",
+      "3. Doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế được kinh doanh dịch vụ lữ hành quốc tế và dịch vụ lữ hành nội \nđịa, trừ trường hợp quy định tại khoản 4 Điều này.",
+      "4. Doanh nghiệp có vốn đầu tư nước ngoài chỉ được kinh doanh dịch vụ lữ hành quốc tế phục vụ khách du lịch quốc \ntế đến Việt Nam, trừ trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có \nquy định khác. \nĐiều 31. Điều kiện kinh doanh dịch vụ lữ hành \n1. Điều kiện kinh doanh dịch vụ lữ hành nội địa bao gồm: \na) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp; \nb) Ký quỹ kinh doanh dịch vụ lữ hành nội địa tại ngân hàng;",
+      "hành với người phụ trách kinh doanh dịch vụ lữ hành. \n2. Trình tự, thủ tục, thẩm quyền cấp Giấy phép kinh doanh dịch vụ lữ hành quốc tế được quy định như sau: \na) Doanh nghiệp đề nghị cấp Giấy phép kinh doanh dịch vụ lữ hành quốc tế nộp 01 bộ hồ sơ đến Tổng cục Du lịch; \nb) Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ hợp lệ, Tổng cục Du lịch thẩm định, cấp Giấy phép kinh \ndoanh dịch vụ lữ hành quốc tế cho doanh nghiệp và thông báo cho cơ quan chuyên môn về du lịch cấp tỉnh nơi"
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-67",
+      "legal/LUẬT DU LỊCH.md::chunk-68",
+      "legal/LUẬT DU LỊCH.md::chunk-65",
+      "legal/LUẬT DU LỊCH.md::chunk-66",
+      "legal/LUẬT DU LỊCH.md::chunk-75"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo khoản 2 Điều 31: là doanh nghiệp được thành lập theo pháp luật về doanh nghiệp; ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng; người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp cao đẳng trở lên chuyên ngành lữ hành, hoặc cao đẳng trở lên ngành khác kèm chứng chỉ nghiệp vụ điều hành du lịch quốc tế.",
+    "expected_context": "2. Điều kiện kinh doanh dịch vụ lữ hành quốc tế bao gồm: a) Là doanh nghiệp được thành lập theo quy định của pháp luật về doanh nghiệp; b) Ký quỹ kinh doanh dịch vụ lữ hành quốc tế tại ngân hàng; c) Người phụ trách kinh doanh dịch vụ lữ hành phải tốt nghiệp cao đẳng trở lên chuyên ngành về lữ hành; trường hợp tốt nghiệp cao đẳng trở lên chuyên ngành khác phải có chứng chỉ nghiệp vụ điều hành du lịch quốc tế.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 1919,
+    "retrieval_ms": 537,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4098,
+    "context_recall": 1.0,
+    "context_precision": 0.8875
+  },
+  {
+    "question": "Có những loại cơ sở lưu trú du lịch nào?",
+    "answer": "- Khách sạn\n- Biệt thự du lịch\n- Căn hộ du lịch\n- Tàu thủy lưu trú du lịch\n- Nhà nghỉ du lịch\n- Nhà ở có phòng cho khách du lịch thuê\n- Bãi cắm trại du lịch\n- Các cơ sở lưu trú du lịch khác [1].",
+    "refused": false,
+    "contexts": [
+      "Mục 3. LƯU TRÚ DU LỊCH \nĐiều 48. Các loại cơ sở lưu trú du lịch \n1. Khách sạn. \n2. Biệt thự du lịch. \n3. Căn hộ du lịch. \n4. Tàu thủy lưu trú du lịch. \n5. Nhà nghỉ du lịch. \n6. Nhà ở có phòng cho khách du lịch thuê. \n7. Bãi cắm trại du lịch. \n8. Các cơ sở lưu trú du lịch khác. \nĐiều 49. Điều kiện kinh doanh dịch vụ lưu trú du lịch \n1. Điều kiện kinh doanh dịch vụ lưu trú du lịch bao gồm:",
+      "a) Có đăng ký kinh doanh theo quy định của pháp luật; \nb) Đáp ứng điều kiện về an ninh, trật tự, an toàn về phòng cháy và chữa cháy, bảo vệ môi trường, an toàn thực \nphẩm theo quy định của pháp luật; \nc) Đáp ứng điều kiện tối thiểu về cơ sở vật chất kỹ thuật và dịch vụ phục vụ khách du lịch. \n2. Chính phủ quy định chi tiết điểm c khoản 1 Điều này. \nĐiều 50. Xếp hạng cơ sở lưu trú du lịch",
+      "sở lưu trú du lịch trên toàn quốc. \n2. Cơ quan chuyên môn về du lịch cấp tỉnh công bố danh sách cơ sở lưu trú du lịch đã được xếp hạng theo thẩm \nquyền; tổ chức kiểm tra chất lượng cơ sở lưu trú du lịch trên địa bàn. \nĐiều 52. Thu hồi quyết định công nhận hạng, thay đổi hạng cơ sở lưu trú du lịch \n1. Cơ quan nhà nước có thẩm quyền công nhận hạng cơ sở lưu trú du lịch thu hồi quyết định công nhận hạng đối với \ncơ sở lưu trú du lịch không duy trì chất lượng theo tiêu chuẩn đã được công nhận.",
+      "với tổ chức xã hội - nghề nghiệp về du lịch thẩm định và ra quyết định công nhận hạng cơ sở lưu trú du lịch; trường \nhợp không công nhận, phải thông báo bằng văn bản và nêu rõ lý do. \n6. Quyết định công nhận hạng cơ sở lưu trú du lịch có thời hạn 05 năm. Sau khi hết thời hạn, tổ chức, cá nhân kinh \ndoanh dịch vụ lưu trú du lịch có nhu cầu đăng ký xếp hạng lại cơ sở lưu trú du lịch thực hiện theo quy định tại các \nkhoản 4, 5 và 7 Điều này.",
+      "Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định mẫu biển công nhận hạng cơ sở lưu trú du lịch. \nĐiều 51. Công bố, kiểm tra chất lượng cơ sở lưu trú du lịch \n1. Tổng cục Du lịch công bố danh sách cơ sở lưu trú du lịch đã được xếp hạng theo thẩm quyền; hướng dẫn, kiểm \ntra việc xếp hạng cơ sở lưu trú du lịch của cơ quan chuyên môn về du lịch cấp tỉnh; tổ chức kiểm tra chất lượng cơ \nsở lưu trú du lịch trên toàn quốc."
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-107",
+      "legal/LUẬT DU LỊCH.md::chunk-108",
+      "legal/LUẬT DU LỊCH.md::chunk-116",
+      "legal/LUẬT DU LỊCH.md::chunk-113",
+      "legal/LUẬT DU LỊCH.md::chunk-115"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Theo Điều 48 gồm: khách sạn; biệt thự du lịch; căn hộ du lịch; tàu thủy lưu trú du lịch; nhà nghỉ du lịch; nhà ở có phòng cho khách du lịch thuê; bãi cắm trại du lịch; và các cơ sở lưu trú du lịch khác.",
+    "expected_context": "Điều 48. Các loại cơ sở lưu trú du lịch 1. Khách sạn. 2. Biệt thự du lịch. 3. Căn hộ du lịch. 4. Tàu thủy lưu trú du lịch. 5. Nhà nghỉ du lịch. 6. Nhà ở có phòng cho khách du lịch thuê. 7. Bãi cắm trại du lịch. 8. Các cơ sở lưu trú du lịch khác.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 1992,
+    "retrieval_ms": 505,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4749,
+    "context_recall": 1.0,
+    "context_precision": 0.95
+  },
+  {
+    "question": "Luật Du lịch 2017 có hiệu lực từ ngày nào?",
+    "answer": "- Luật Du lịch 2017 có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018 [2].",
+    "refused": false,
+    "contexts": [
+      "QUỐC HỘI​\n-------- \nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM​\nĐộc lập - Tự do - Hạnh phúc​\n--------------- \nLuật số: 09/2017/QH14 \nHà Nội, ngày 19 tháng 6 năm 2017 \n  \nLUẬT \nDU LỊCH \nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; \nQuốc hội ban hành Luật Du lịch. \nChương I \nNHỮNG QUY ĐỊNH CHUNG \nĐiều 1. Phạm vi điều chỉnh \nLuật này quy định về tài nguyên du lịch, phát triển sản phẩm du lịch và hoạt động du lịch; quyền, nghĩa vụ của khách",
+      "Bộ Tài chính \nĐiều 77. Hiệu lực thi hành \n1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018. \n2. Luật Du lịch số 44/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành. \nĐiều 78. Quy định chuyển tiếp \n1. Doanh nghiệp đã được cấp Giấy phép kinh doanh dịch vụ lữ hành quốc tế trước ngày Luật này có hiệu lực thi \nhành không phải làm thủ tục đổi giấy phép, nhưng phải bảo đảm đáp ứng đủ các điều kiện kinh doanh theo quy định",
+      "Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 3 thông qua ngày 19 tháng \n6 năm 2017.",
+      "của Luật này trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành. \n2. Doanh nghiệp kinh doanh dịch vụ lữ hành nội địa phải làm thủ tục đề nghị cấp Giấy phép kinh doanh dịch vụ lữ \nhành nội địa trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành. Sau thời hạn trên, nếu không có giấy \nphép thì doanh nghiệp không được kinh doanh dịch vụ lữ hành nội địa.",
+      "đến du lịch. \nĐiều 3. Giải thích từ ngữ \nTrong Luật này, các từ ngữ dưới đây được hiểu như sau: \n1. Du lịch là các hoạt động có liên quan đến chuyến đi của con người ngoài nơi cư trú thường xuyên trong thời gian \nkhông quá 01 năm liên tục nhằm đáp ứng nhu cầu tham quan, nghỉ dưỡng, giải trí, tìm hiểu, khám phá tài nguyên du \nlịch hoặc kết hợp với mục đích hợp pháp khác. \n2. Khách du lịch là người đi du lịch hoặc kết hợp đi du lịch, trừ trường hợp đi học, làm việc để nhận thu nhập ở nơi \nđến."
+    ],
+    "source_ids": [
+      "legal/LUẬT DU LỊCH.md::chunk-0",
+      "legal/LUẬT DU LỊCH.md::chunk-181",
+      "legal/LUẬT DU LỊCH.md::chunk-184",
+      "legal/LUẬT DU LỊCH.md::chunk-182",
+      "legal/LUẬT DU LỊCH.md::chunk-2"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Luật có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018; Luật Du lịch số 44/2005/QH11 hết hiệu lực kể từ ngày đó (Điều 77).",
+    "expected_context": "Điều 77. Hiệu lực thi hành 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2018. 2. Luật Du lịch số 44/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.",
+    "expected_source": "LUẬT DU LỊCH.md",
+    "hit_expected_source": true,
+    "latency_ms": 1830,
+    "retrieval_ms": 626,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6193,
+    "context_recall": 1.0,
+    "context_precision": 0.5
+  },
+  {
+    "question": "Công dân Nhật Bản và Hàn Quốc được miễn visa vào Việt Nam bao nhiêu ngày?",
+    "answer": "- Công dân Nhật Bản và Hàn Quốc không cần visa cho chuyến thăm lên đến 15 ngày [1].",
+    "refused": false,
+    "contexts": [
+      "need a visa for a visit up to 30 days.  \nPhilippines passport holders do not need a visa for a visit up to 21 days.  \nJapanese and South Korean passport holders do not need a visa for a visit up to 15 days.  \nWe are pleased to advise that the Government of Vietnam has agreed to extend a 12 month Visa \nExemption period for British, German, French, Spanish and Italian citizens, which will come into effect",
+      "COUNTRIES EXEMPT \nNationals from Russia, Norway, Sweden, Denmark and Finland traveling to Vietnam and staying for 15 \ndays or less do not need to apply for a tourist visa, provided that their passport is valid for at least three \nmonths and they can show their return ticket. Those who wish to stay longer than 15 days will need to \napply for a tourist visa.  \nTourists holding Thai, Indonesian, Lao, Cambodian, Malaysian and Singaporean passports also do not",
+      "from 1st July 2017 and run until 30th June 2018. This unilateral visa exemption is being granted by \nVietnamese Authorities to citizens from these countries in order to promote tourism in Vietnam. \n \n \nTYPES OF TOURIST VISAS AND VALIDITY \nA tourist visa is normally a Single Entry Visa, which means that if you exit Vietnam (for example for a \nside trip to Cambodia); you will require a new visa to re-enter.  \nThere is also a Multiple-Entry Visa which has to be specifically applied for.",
+      "Visas & Entry Requirements \n immigration/customs \n passport validity \n information from relevant authorities \n reference to official websites \nVisitors with UK passports and from a number of other European countries no \nlonger require visas for visits related to business or tourism of less than 15 days’ \nduration (see conditions below). However it is advisable to check the conditions \nfor visa-free travel with your local Vietnamese Embassy.",
+      "Please note that entry to Vietnam may be refused if your passport has less than \nsix months validity.  \nVisitors from visa countries, or whose visits are longer than 15 days, or who \nrequire more than one entry into Vietnam, or are returning to Vietnam within less \nthan three months from their previous visit must obtain a visa.  Visas are usually \nvalid for one month. You should check the visa validity and conditions \ncarefully. There are fines and/or imprisonment if you overstay your visa."
+    ],
+    "source_ids": [
+      "legal/exotravel_vietnam_visa_information.md::chunk-2",
+      "legal/exotravel_vietnam_visa_information.md::chunk-1",
+      "legal/exotravel_vietnam_visa_information.md::chunk-3",
+      "legal/vietnam_visitors_notes.md::chunk-1",
+      "legal/vietnam_visitors_notes.md::chunk-2"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Người mang hộ chiếu Nhật Bản và Hàn Quốc không cần visa cho chuyến thăm tối đa 15 ngày.",
+    "expected_context": "Japanese and South Korean passport holders do not need a visa for a visit up to 15 days.",
+    "expected_source": "exotravel_vietnam_visa_information.md",
+    "hit_expected_source": true,
+    "latency_ms": 1801,
+    "retrieval_ms": 680,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.505,
+    "context_recall": 1.0,
+    "context_precision": 0.7
+  },
+  {
+    "question": "Visa du lịch nhập cảnh một lần có hiệu lực bao lâu và nếu rời Việt Nam sang Campuchia thì có dùng lại được không?",
+    "answer": "- Visa du lịch nhập cảnh một lần thường có hiệu lực trong một tháng [2].\n- Nếu bạn rời Việt Nam (ví dụ sang Campuchia), bạn sẽ cần visa mới để tái nhập cảnh [1].",
+    "refused": false,
+    "contexts": [
+      "from 1st July 2017 and run until 30th June 2018. This unilateral visa exemption is being granted by \nVietnamese Authorities to citizens from these countries in order to promote tourism in Vietnam. \n \n \nTYPES OF TOURIST VISAS AND VALIDITY \nA tourist visa is normally a Single Entry Visa, which means that if you exit Vietnam (for example for a \nside trip to Cambodia); you will require a new visa to re-enter.  \nThere is also a Multiple-Entry Visa which has to be specifically applied for.",
+      "Please note that entry to Vietnam may be refused if your passport has less than \nsix months validity.  \nVisitors from visa countries, or whose visits are longer than 15 days, or who \nrequire more than one entry into Vietnam, or are returning to Vietnam within less \nthan three months from their previous visit must obtain a visa.  Visas are usually \nvalid for one month. You should check the visa validity and conditions \ncarefully. There are fines and/or imprisonment if you overstay your visa.",
+      "is required for exit.  If you lose this you are likely to be fined on departure. \n \nIf you lose your passport or have over-stayed you will need to apply for a new \npassport at your embassy in Vietnam; and apply for a new visa from the \nImmigration authorities in order to leave the country.  This can only be done \nduring working hours and usually takes five to ten working days. \nTravel Advice \n \nAround 80,000 British tourists visit Vietnam every year.  Most visits are trouble-",
+      "25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped \ninto your passport and handed back. \nDepending on the amount of people applying for the same procedure, the wait can take from 10 mins \nto 1 hr. \nSuch a VOA (Visa-On-Arrival) procedure is possible ONLY at the international airports in Hanoi, Ho Chi \nMinh City (Saigon) and Danang and at the land border of Moc Bai (coming from Cambodia tor Ho Cho",
+      "lịch. \n4. Khách du lịch ra nước ngoài là công dân Việt Nam và người nước ngoài cư trú ở Việt Nam đi du lịch nước ngoài. \nĐiều 11. Quyền của khách du lịch \n1. Sử dụng dịch vụ du lịch do tổ chức, cá nhân kinh doanh du lịch cung cấp hoặc tự đi du lịch. \n2. Yêu cầu tổ chức, cá nhân kinh doanh du lịch cung cấp thông tin về chương trình, dịch vụ, điểm đến du lịch theo \nhợp đồng đã ký kết."
+    ],
+    "source_ids": [
+      "legal/exotravel_vietnam_visa_information.md::chunk-3",
+      "legal/vietnam_visitors_notes.md::chunk-2",
+      "legal/vietnam_visitors_notes.md::chunk-4",
+      "legal/exotravel_vietnam_visa_information.md::chunk-9",
+      "legal/LUẬT DU LỊCH.md::chunk-26"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Visa nhập cảnh một lần (Single Entry) có hiệu lực 30 ngày; nếu rời Việt Nam (ví dụ đi Campuchia) thì cần visa mới để nhập cảnh lại. Visa nhiều lần (Multiple Entry) phải xin riêng và có hiệu lực 28 hoặc 45 ngày.",
+    "expected_context": "A tourist visa is normally a Single Entry Visa, which means that if you exit Vietnam (for example for a side trip to Cambodia); you will require a new visa to re-enter. There is also a Multiple-Entry Visa which has to be specifically applied for. The Single entry visa is valid for 30 days. The Multiple entry visa is valid either 28 or 45 days.",
+    "expected_source": "exotravel_vietnam_visa_information.md",
+    "hit_expected_source": true,
+    "latency_ms": 1945,
+    "retrieval_ms": 568,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5312,
+    "context_recall": 0.5,
+    "context_precision": 0.9167
+  },
+  {
+    "question": "Phí dán visa khi nhận visa tại sân bay (visa on arrival) là bao nhiêu và làm ở những cửa khẩu nào?",
+    "answer": "- Phí dán visa khi nhận visa tại sân bay (visa on arrival) là 25 USD cho visa một lần và 50 USD cho visa nhiều lần (tối đa 28 ngày) [1].\n- Visa on Arrival chỉ có thể thực hiện tại các sân bay quốc tế ở Hà Nội, Thành phố Hồ Chí Minh (Sài Gòn) và Đà Nẵng, cũng như tại cửa khẩu đất liền Mộc Bài (đến từ Campuchia) [1][2].",
+    "refused": false,
+    "contexts": [
+      "25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped \ninto your passport and handed back. \nDepending on the amount of people applying for the same procedure, the wait can take from 10 mins \nto 1 hr. \nSuch a VOA (Visa-On-Arrival) procedure is possible ONLY at the international airports in Hanoi, Ho Chi \nMinh City (Saigon) and Danang and at the land border of Moc Bai (coming from Cambodia tor Ho Cho",
+      "Minh City). Please note that at Moc Bai border you need the ORIGINAL paper and a copy will not be \naccepted; please allow for extra 3 days to have original sent to you by DHL. \nBefore departure, prepare some bank notes in US Dollars to pay the visa fee on arrival.  \nFor both cases mentioned above, EXO Travel will facilitate the visa application procedure and obtain \nthe necessary visa pre-approval from the Vietnamese Immigration Department in advance.",
+      "and send you back an official paper stating your visa has been approved and will be delivered on arrival \nin Vietnam. Print out (Important!) and bring this “Visa pick-up upon arrival approval letter” to the \nairline check-in counter. Without this letter the airline will refuse you boarding.  \nOn arrival in Vietnam, before going through passport control proceed to the Visa on Arrival (VOA) \ncounter with your letter. You will then be asked to fill one more form, give 2 photos and pay USD)",
+      "Once approved we will send you the official document issued by the Vietnamese Immigration \ndepartment (which is valid for all Embassies and must be recognised).   \nIn Case 1 it is called an “Approval letter”, in Case 2 it is a “Visa pick-up upon arrival approval letter”. \nThe approval process usually takes 5-7 working days and a processing fee of USD 10 per passport is \ncharged .  \nIn urgent cases (less than 5 working days) an express surcharge of USD 20 will be charged.",
+      "Note: A visa requested as a multi-entry at embassies abroad is often issued as a single entry; it is \nrecommended to double-check your visa stamp in passport when collecting your passport and insist on \nchanging it . \nCase 2: Pre-arranged “Visa on arrival” at International entry points  \nIn case there is NO Vietnamese embassy or consulate in your home town.  \nSend us all passport details as required below and we will process a pre-approval here from Vietnam"
+    ],
+    "source_ids": [
+      "legal/exotravel_vietnam_visa_information.md::chunk-9",
+      "legal/exotravel_vietnam_visa_information.md::chunk-10",
+      "legal/exotravel_vietnam_visa_information.md::chunk-8",
+      "legal/exotravel_vietnam_visa_information.md::chunk-12",
+      "legal/exotravel_vietnam_visa_information.md::chunk-7"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Phí là 25 USD/người cho visa nhập cảnh một lần và 50 USD/người cho visa nhiều lần đến 28 ngày, trả bằng tiền mặt. Visa on arrival chỉ làm được tại sân bay quốc tế Hà Nội, TP. Hồ Chí Minh, Đà Nẵng và cửa khẩu đường bộ Mộc Bài (từ Campuchia).",
+    "expected_context": "You will then be asked to fill one more form, give 2 photos and pay USD 25/person (Single entry), USD 50/person (multi-entry until 28 days) in cash before the visa is stamped into your passport. Such a VOA (Visa-On-Arrival) procedure is possible ONLY at the international airports in Hanoi, Ho Chi Minh City (Saigon) and Danang and at the land border of Moc Bai.",
+    "expected_source": "exotravel_vietnam_visa_information.md",
+    "hit_expected_source": true,
+    "latency_ms": 2467,
+    "retrieval_ms": 596,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.5965,
+    "context_recall": 1.0,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Ở Việt Nam gọi số nào để báo cảnh sát, cứu hỏa và cấp cứu?",
+    "answer": "- Để báo cảnh sát, gọi số 113.\n- Để báo cứu hỏa, gọi số 114.\n- Để gọi cấp cứu, gọi số 115 [1].",
+    "refused": false,
+    "contexts": [
+      "Duty Officer Mobile : + 84 (0)904102324  \n \nemail: behanoi@fpt.vn \nwebsite: http://www.uk-vietnam.org/ \n \nBritish Consulate General \n25 Le Duan, District 1 \nHo Chi Minh City \nTel: + 84 (0)8 3829 8433 \nFax: +84 (0)8 3829 5257 \nemail: bcghcmc@vnn.vn \n \nExternal contact details  \nPolice  \n \n \n \n: Dial 113 \nFire Station \n \n \n \n: Dial 114 \nAmbulance \n \n \n \n: Dial 115 \nGeneral Information \n \n \n: Dial 1080 \n \nHistory of British Council in Vietnam \n overview (<250 words)",
+      "All international hotels offer Wi-Fi, usually free of charge. Mobile phone Sim \ncards are readily available and national calls reasonably priced. \n \nTo save costs, you can press 171 or 178 before press 00 for calling out of \nVietnam and for calling between cities in Vietnam. Example: \n \n171 + 00 + country code + area code + Tel number \n \n178 + 0 + area code + Tel number \n  \nBritish Council Contact Information & Emergency Contact Information",
+      "Mobile phone : +84 (0)0975168383 \n \nLê Hoàng Yến, Assistant Director, HR \nMobile phone : +84 (0)905644688  \n \nBritish Council, Ho Chi Minh City \nJon Glendinning, Director English Language Services \nMobile phone: +84 (0)932188062 \n \nName: Le Anh Tho, Assistant Director Ho Chi Minh City  \nMobile phone: +84 (0)903036930 \n \nBritish Embassy \nCentral Building \n4th Floor, 31 Hai Ba Trung \nHanoi \nTel: +84 (0)4 3936 0500 \nFax: + 84 (0)4 3936 0561 \nDuty Officer Mobile : + 84 (0)904102324",
+      "cứu hộ, cứu nạn cho khách du lịch. \n3. Tổ chức, cá nhân kinh doanh du lịch có trách nhiệm cảnh báo nguy cơ gây nguy hiểm cho khách du lịch; thông \nbáo, chỉ dẫn kịp thời cho khách du lịch trong trường hợp khẩn cấp; áp dụng biện pháp cần thiết, phối hợp với cơ \nquan, tổ chức, cá nhân có liên quan trong việc cứu hộ, cứu nạn cho khách du lịch. \nĐiều 14. Giải quyết kiến nghị của khách du lịch",
+      "3. Thanh toán tiền dịch vụ theo hợp đồng, phí, lệ phí và các khoản thu khác theo quy định của pháp luật. \n4. Bồi thường thiệt hại theo quy định của pháp luật về dân sự. \nĐiều 13. Bảo đảm an toàn cho khách du lịch \n1. Cơ quan nhà nước có thẩm quyền, trong phạm vi nhiệm vụ, quyền hạn của mình, có biện pháp bảo đảm an ninh, \ntrật tự, an toàn xã hội tại khu du lịch, điểm du lịch. \n2. Tổ chức, cá nhân quản lý khu du lịch, điểm du lịch có biện pháp phòng, tránh rủi ro và tổ chức bộ phận bảo vệ,"
+    ],
+    "source_ids": [
+      "legal/vietnam_visitors_notes.md::chunk-28",
+      "legal/vietnam_visitors_notes.md::chunk-22",
+      "legal/vietnam_visitors_notes.md::chunk-27",
+      "legal/LUẬT DU LỊCH.md::chunk-31",
+      "legal/LUẬT DU LỊCH.md::chunk-30"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Cảnh sát: 113; Cứu hỏa: 114; Cấp cứu: 115; Thông tin chung: 1080.",
+    "expected_context": "External contact details Police: Dial 113. Fire Station: Dial 114. Ambulance: Dial 115. General Information: Dial 1080.",
+    "expected_source": "vietnam_visitors_notes.md",
+    "hit_expected_source": true,
+    "latency_ms": 1958,
+    "retrieval_ms": 519,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.3968,
+    "context_recall": 1.0,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Khí hậu TP. Hồ Chí Minh như thế nào, mùa mưa và mùa khô vào tháng mấy?",
+    "answer": "- TP. Hồ Chí Minh có khí hậu nhiệt đới ẩm và khô, với độ ẩm trung bình khoảng 75% [1].\n- Mùa mưa thường diễn ra từ tháng 5 đến tháng 9, trong khi mùa khô từ tháng 12 đến tháng 4 [1].",
+    "refused": false,
+    "contexts": [
+      "(October and November) the climate is pleasantly warm and dry.  Summers \n(May to September) are hot with temperatures averaging 26-32°C and very \nhumid.  During the winter (December to February) there are long periods of low \ncloud and drizzle.  The air is very damp and temperatures can drop sharply \nwithin a few hours to as low as 42°F (8°C). \n \nHCMC has a tropical wet and dry climate, with an average humidity of 75%. The",
+      "The best time to visit Saigon Zoo is in the early morning (07:30 - 09:00 AM) or late afternoon (after 03:00 PM) to avoid the midday heat. Weekdays are quieter, providing a more relaxing atmosphere to observe the animals and explore the gardens. Visiting during the dry season (December to April) ensures comfortable weather for walking outdoors.\n## 12\\. Takashimaya Ho Chi Minh City",
+      "The best time to visit Suoi Tien Theme Park is on weekdays to avoid large local crowds, especially during Vietnamese school holidays and weekends, when the park is busiest. Visiting in the morning hours is recommended to enjoy outdoor rides before the midday heat, as temperatures in Ho Chi Minh City can rise significantly.\n## 14\\. Ao Dai Exhibition",
+      "Ngoài các điểm tham quan, ẩm thực độc đáo của Sài Gòn cũng là điểm thu hút du khách. Nếu hỏi **ăn gì ở Sài Gòn**, thổ địa nơi đây sẽ giới thiệu bạn vô vàn món từ bình dân đến cao cấp như cơm tấm, ốc, lẩu hải sản, lẩu dê,...\nSài Gòn - thành phố năng động bậc nhất nước ta, nơi hội tụ, giao lưu văn hóa, ẩm thực của các vùng miền trên khắp cả nước là điểm đến hấp dẫn mà bạn nên đặt chân đến một lần trong đời. Nơi đây có vô vàn địa điểm tham quan, khu du lịch, điểm vui chơi hấp dẫn đang chờ đón bạn.",
+      "Hanoi. You should monitor local and international weather updates from the \nWorld Meteorological Organisation (WMO).  You can also access \nhttp://www.nhc.noaa.gov for updates.  Please also see Hurricanes for more \ndetailed information about what to do if your are caught up in a typhoon. \n \nVietnam, particularly the Central Region and Mekong Delta, is subject to \nsporadic serious flooding in the monsoon season.  (The timing of this varies"
+    ],
+    "source_ids": [
+      "legal/vietnam_visitors_notes.md::chunk-17",
+      "news/article_02.md::chunk-36",
+      "news/article_02.md::chunk-42",
+      "news/article_03.md::chunk-22",
+      "legal/vietnam_visitors_notes.md::chunk-68"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "TP. HCM có khí hậu nhiệt đới hai mùa mưa và khô, độ ẩm trung bình 75%. Mùa mưa thường từ tháng 5 đến cuối tháng 11; mùa khô từ tháng 12 đến tháng 4. Nhiệt độ trung bình 28°C.",
+    "expected_context": "HCMC has a tropical wet and dry climate, with an average humidity of 75%. The rainy season usually begins in May and ends in late November. The dry season lasts from December to April. The average temperature is 28 °C (82 °F).",
+    "expected_source": "vietnam_visitors_notes.md",
+    "hit_expected_source": true,
+    "latency_ms": 3412,
+    "retrieval_ms": 504,
+    "faithfulness": 0.75,
+    "answer_relevancy": 0.6304,
+    "context_recall": 0.6667,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Điện áp ở Việt Nam là bao nhiêu và dùng loại phích cắm nào?",
+    "answer": "- Điện áp ở Việt Nam là 220 volts và AC. \n- Loại phích cắm thông dụng là phích hai chân, mặc dù một số khách sạn cũng có ổ cắm kiểu Anh ba chân [1].",
+    "refused": false,
+    "contexts": [
+      "Electricity \n plug type \n supply \n type \n \nThe power supply is 220 volts and AC. Two-pin plugs are the norm although \nsome hotels also have UK-style 3-pin sockets.  \n \nDoing Business \n building relationships \n business cards \n business protocols \n do’s & don’ts \n introductions \nThe Vietnamese prefer doing business with people they respect. Relationships \ndevelop slowly and do not flourish after one meeting; it may take several",
+      "particularly in central Vietnam and along the Lao Boarder.  You should not stray \noff main routes in rural areas and you should check with your tour operator \nbefore travelling to affected regions. \n \n \nRail Safety \nRail travel in Vietnam is generally safe (there was one serious accident in \n2004).  There have been incidents of crime on trains and you should remain \nvigilant. \n \nDrinking Water \n availability \n safety \n \nWater should not be consumed from the tap. \n \nElectricity \n plug type",
+      "All international hotels offer Wi-Fi, usually free of charge. Mobile phone Sim \ncards are readily available and national calls reasonably priced. \n \nTo save costs, you can press 171 or 178 before press 00 for calling out of \nVietnam and for calling between cities in Vietnam. Example: \n \n171 + 00 + country code + area code + Tel number \n \n178 + 0 + area code + Tel number \n  \nBritish Council Contact Information & Emergency Contact Information",
+      " tipping / gratuities - common practices \n& amount \n VAT or sales taxes added to bills \n reference to official websites \n \nThere are plenty of reliable ATM’s (ANZ Bank, HSBC, Standard Chartered \nBank, Vietcombank, Vietin Bank) in most cities nationwide, and this is the \neasiest way of obtaining money in Vietnam. You can also change cash at \nairports, and in high-end hotels.  The current exchange rate (July 2015) is \naround VND33,000 to £1. The US dollar is far and away the most useful",
+      " reference to auto-translation sites \nVietnamese is the official language in Vietnam.  English use is becoming more \nprevalent in government and commerce.  \n \nBusiness & Leisure Time \n work week begins on/ends on? \n working hours/definition of work \nweek  \nBusiness Hours: Most businesses are open from 0830 to 1730 hours, with an \nextended lunch hour, Monday to Friday. Government offices are usually open \nfrom 0800-1630 hours. \n \n \nCalendar \n if using non-British calendars -"
+    ],
+    "source_ids": [
+      "legal/vietnam_visitors_notes.md::chunk-57",
+      "legal/vietnam_visitors_notes.md::chunk-56",
+      "legal/vietnam_visitors_notes.md::chunk-22",
+      "legal/vietnam_visitors_notes.md::chunk-31",
+      "legal/vietnam_visitors_notes.md::chunk-59"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Nguồn điện 220V xoay chiều (AC); phổ biến là phích cắm hai chấu, một số khách sạn có ổ cắm 3 chấu kiểu Anh.",
+    "expected_context": "The power supply is 220 volts and AC. Two-pin plugs are the norm although some hotels also have UK-style 3-pin sockets.",
+    "expected_source": "vietnam_visitors_notes.md",
+    "hit_expected_source": true,
+    "latency_ms": 1997,
+    "retrieval_ms": 539,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6216,
+    "context_recall": 1.0,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Giá vé tham quan Nhà hát Lớn Hà Nội là bao nhiêu và giờ tham quan có hướng dẫn là mấy giờ?",
+    "answer": "- Giá vé tham quan Nhà hát Lớn Hà Nội là **120,000 VND** mỗi người, bao gồm quyền truy cập vào hội trường chính và các khu vực triển lãm nhưng không bao gồm tour hậu trường hoặc chỗ ngồi cao cấp [2].\n- Giờ tham quan có hướng dẫn là từ **10:30 AM đến 12:00 PM** hàng ngày [1].",
+    "refused": false,
+    "contexts": [
+      "### 1.2. Opening Hours and Entrance Fees\nThe Hanoi Opera House is open for guided tours every day of the week, from **10:30 AM to 12:00 PM**, while evening performances usually begin from **7:30 PM onward**. However, schedules may vary depending on special events or private bookings. Visitors are encouraged to check the official website for the latest updates before planning their visit.",
+      "Ticket prices depend on the type of event. The entrance fee to the Opera House is **120,000 VND per person**, which includes access to the main hall and exhibition areas but may not cover backstage tours or premium seating. For live concerts, operas, and ballet performances, ticket prices range from **300,000 VND to over 1,500,000 VND**, depending on seat location and event scale.",
+      "**_Note_**_: Show schedules and ticket prices may vary. Visitors can check the latest updates on the__official website__._\n## 5\\. Essential Tips for Visiting The Hanoi Opera House\nWhen visiting the Hanoi Opera House, it’s essential to follow certain guidelines to ensure a smooth and enjoyable experience. Here are some important tips for your visit:",
+      "Located just about 500 meters from Hoan Kiem Lake, one of Hanoi’s most iconic landmarks, the Hanoi Opera House is easily reachable on foot. Amidst the hustle and bustle of tall buildings and lively streets, the theater stands out as a striking symbol of elegance and cultural heritage.\n### 1.2. Opening Hours and Entrance Fees",
+      "- **By bus**: Several bus routes stop near the Opera House, making public transport an affordable choice. Visitors can take buses No. 11, 31, 34, 40, 49, 146, 35A, 86CT. For those traveling from the West Lake area, opt for bus No. 02, 04, and E02. Be sure to check real-time schedules to avoid long waiting times.\n## 2\\. The Captivating History behind The Hanoi Opera House"
+    ],
+    "source_ids": [
+      "news/article_01.md::chunk-4",
+      "news/article_01.md::chunk-5",
+      "news/article_01.md::chunk-21",
+      "news/article_01.md::chunk-3",
+      "news/article_01.md::chunk-9"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Vé vào cửa 120.000 VND/người; tour tham quan có hướng dẫn mở hằng ngày từ 10:30 đến 12:00, biểu diễn buổi tối thường bắt đầu từ 19:30. Vé xem biểu diễn từ 300.000 đến hơn 1.500.000 VND.",
+    "expected_context": "The Hanoi Opera House is open for guided tours every day of the week, from 10:30 AM to 12:00 PM, while evening performances usually begin from 7:30 PM onward. The entrance fee to the Opera House is 120,000 VND per person... ticket prices range from 300,000 VND to over 1,500,000 VND.",
+    "expected_source": "article_01.md",
+    "hit_expected_source": true,
+    "latency_ms": 2433,
+    "retrieval_ms": 538,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6024,
+    "context_recall": 1.0,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Địa đạo Củ Chi mở cửa lúc mấy giờ và giá vé khu Bến Dình là bao nhiêu?",
+    "answer": "- Địa đạo Củ Chi mở cửa từ 07:00 AM đến 05:00 PM hàng ngày [1].\n- Giá vé khu Bến Dình là 110,000 VND (khoảng 4.50 USD) cho mỗi người [1].",
+    "refused": false,
+    "contexts": [
+      "## 6\\. Cu Chi Tunnels\n| **Address:**Provincial Road 15, Phu Hiep Hamlet, Phu My Hung Commune, Cu Chi District, Ho Chi Minh City.<br>**Opening hours**: 07:00 AM - 05:00 PM daily.<br>**Entrance fee**: VND 110,000 (approx. USD 4.50) per person for Ben Dinh site; VND 90,000 (approx. USD 3.4) per person for Ben Duoc site.<br>**Website**: Cu Chi Tunnels Official Site. |",
+      "## 13\\. Suoi Tien Theme Park\n| **Address:**120 Xa Lo Ha Noi, Tan Phu Ward, Thu Duc City, Ho Chi Minh City.<br>**Opening hours:** Daily, 07:30 AM - 05:00 PM<br>**Entrance fee**: VND 180,000 (adults); VND 90,000 (children from 1m to 1.4m).<br>**Website**: Suoi Tien Theme Park Official Website |",
+      "The best time to visit Cu Chi Tunnels is in the morning on weekdays, when there are fewer tour groups, allowing for a quieter, immersive experience. The dry season from December to April offers cooler, more comfortable weather, ideal for walking and exploring outdoor exhibits.\n## 7\\. Ben Thanh Market",
+      "## 11\\. Saigon Zoo and Botanical Gardens\n| **Address**: 2 Nguyen Binh Khiem Street, Ben Nghe Ward, District 1, Ho Chi Minh City.<br>**Opening hours**: Daily, 07:30 AM - 05:30 PM.<br>**Entrance fee**: VND 60,000 for visitors 1.3m and above, VND 40,000 for children under 1.3m.<br>**Website:**Saigon Zoo. |",
+      "It is best to visit the War Remnants Museum on weekday mornings between 07:30 AM and 10:00 AM to avoid large tourist groups and school excursions.\n## 6\\. Cu Chi Tunnels"
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-17",
+      "news/article_02.md::chunk-40",
+      "news/article_02.md::chunk-20",
+      "news/article_02.md::chunk-33",
+      "news/article_02.md::chunk-16"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Địa đạo Củ Chi mở cửa 07:00–17:00 hằng ngày; vé khu Bến Dình 110.000 VND/người (khu Bến Dược 90.000 VND/người). Nên đi buổi sáng ngày thường, mùa khô từ tháng 12 đến tháng 4.",
+    "expected_context": "Cu Chi Tunnels. Opening hours: 07:00 AM - 05:00 PM daily. Entrance fee: VND 110,000 (approx. USD 4.50) per person for Ben Dinh site; VND 90,000 (approx. USD 3.4) per person for Ben Duoc site. The best time to visit Cu Chi Tunnels is in the morning on weekdays... The dry season from December to April.",
+    "expected_source": "article_02.md",
+    "hit_expected_source": true,
+    "latency_ms": 2023,
+    "retrieval_ms": 602,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.4643,
+    "context_recall": 0.6667,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Landmark 81 cao bao nhiêu mét và thời điểm nào đẹp nhất để tham quan?",
+    "answer": "- Landmark 81 cao 461,2 mét với 81 tầng [1].\n- Thời điểm đẹp nhất để tham quan Landmark 81 là vào buổi chiều đến tối, khoảng từ 4:00 đến 5:00 PM [2].",
+    "refused": false,
+    "contexts": [
+      "Landmark 81 is Vietnam’s tallest skyscraper and the second tallest in Southeast Asia, standing at 461.2 meters with 81 floors. Located in the Vinhomes Central Park complex along the Saigon River, it has become an architectural icon symbolising modern prosperity and ambition",
+      "The best time to visit Landmark 81 is in the late afternoon to evening. Arriving around 4:00 to 5:00 PM allows visitors to enjoy daylight city views, capture the sunset over the Saigon River, and watch as the city lights gradually illuminate. Weekdays are recommended to avoid weekend crowds, especially for the SkyView observation deck and dining venues.\n## 11\\. Saigon Zoo and Botanical Gardens",
+      ". Designed by Atkins and developed by Vingroup, the tower houses luxury apartments, the Vinpearl Landmark 81 hotel, high-end restaurants, cafes, a shopping mall, an ice rink, and the breathtaking SkyView observation deck offering panoramic views of Ho Chi Minh City.",
+      "The best time to visit Bui Vien Walking Street is after 06:00 PM on weekends, when the street is closed to vehicles, and nightlife activities reach their peak. Weekdays are less crowded and suitable for visitors who prefer a quieter atmosphere to enjoy local food and coffee shops.\n## 10\\. Landmark 81\n| **Address**: 720A Dien Bien Phu Street, Binh Thanh District, Ho Chi Minh City.<br>**Opening hours:** Daily, 09:30 AM - 10:00 PM.<br>**Entrance fee:** Free. |",
+      "Ben Thanh Market is one of the oldest and most iconic landmarks in Ho Chi Minh City, established in the early 17th century and relocated to its current building in 1914. This bustling marketplace is a vibrant symbol of the city, offering an authentic glimpse into local daily life, commerce, and street food culture. Its famous clock tower and central location make it a must-visit for both first-time visitors and returning travelers."
+    ],
+    "source_ids": [
+      "news/article_02.md::chunk-30",
+      "news/article_02.md::chunk-32",
+      "news/article_02.md::chunk-31",
+      "news/article_02.md::chunk-29",
+      "news/article_02.md::chunk-22"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Landmark 81 cao 461,2 m với 81 tầng, là tòa nhà cao nhất Việt Nam. Thời điểm đẹp nhất là chiều muộn đến tối, khoảng 16:00–17:00 để ngắm hoàng hôn trên sông Sài Gòn; nên đi ngày thường.",
+    "expected_context": "Landmark 81 is Vietnam's tallest skyscraper and the second tallest in Southeast Asia, standing at 461.2 meters with 81 floors. The best time to visit Landmark 81 is in the late afternoon to evening. Arriving around 4:00 to 5:00 PM allows visitors to enjoy daylight city views, capture the sunset over the Saigon River.",
+    "expected_source": "article_02.md",
+    "hit_expected_source": true,
+    "latency_ms": 2031,
+    "retrieval_ms": 675,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6525,
+    "context_recall": 0.6667,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Vịnh Hạ Long có diện tích bao nhiêu và gồm bao nhiêu hòn đảo?",
+    "answer": "Tôi không thể xác minh thông tin này từ nguồn hiện có.",
+    "refused": true,
+    "contexts": [
+      "## 1. Điểm du lịch nổi tiếng Hạ Long Quảng Ninh\nHạ Long Quảng Ninh là một trong các địa điểm du lịch miền Bắc hấp dẫn nhất hiện nay. Với diện tích lên đến 1.553km2 bao gồm 1.969 hòn đảo đá vôi mang nhiều hình thù đẹp mắt, sinh động.",
+      "### 3.1. Phong cảnh đẹp ở Việt Nam - Vịnh Hạ Long\nNhắc đến cảnh đẹp Việt Nam ở miền Bắc không thể không kể đến vịnh Hạ Long – một trong những kỳ quan thiên nhiên của thế giới. **Vịnh Hạ Long** là nơi hội tụ hàng nghìn hòn đảo lớn nhỏ với đa dạng các hình thù khác nhau. Vùng biển trong xanh, êm đềm tạo nên một bức tranh thiên nhiên tuyệt đẹp, níu chân nhiều du khách.",
+      "Đường Bình Minh, Phường Nghi Hải, Huyện Cửa Lò, Tỉnh Nghệ An, Việt Nam\n## 10\\. Vịnh Hạ Long - Quảng Ninh\n**Du lịch Quảng Ninh**, bạn không thể không ghé thăm vịnh Hạ Long. **Vịnh Hạ Long** là một trong những nơi có bãi biển đẹp nhất Việt Nam. Khung cảnh thiên nhiên hùng vĩ với hàng trăm nhìn hòn đảo lớn nhỏ khác nhau và các thảm thực vật xanh tươi, nước biển trong vắt dễ dàng khiến du khách “đổ gục”.",
+      "## 34\\. Địa điểm du lịch Quảng Ninh đẹp nhất\nQuảng Ninh thuộc vùng Đông Bắc nước ta, nơi đây mang vẻ đẹp núi non kỳ thú, sông nước, biển đảo nên thơ. Nổi bật phải kể đến vịnh Hạ Long, được UNESCO công nhận là di sản thiên nhiên thế giới. Cùng nhiều điểm tham quan nổi tiếng khác như phố cổ Hạ Long, Bãi Cháy, bán đảo Tuần Châu, chợ đêm, Bảo tàng Quảng Ninh,... **Du lịch Quảng Ninh**, ngoài khám phá cảnh đẹp, đừng quên thưởng thức các món đặc sản thơm ngon như chả mực, nem chua, bánh gật gù,....",
+      "Đến với vịnh biển này, bạn có thể thử sức với nhiều hoạt động thú vị như chèo thuyền kayak, leo núi, tắm biển, lặn ngắm san hô… **Du lịch Hạ Long** còn được biết đến với nhiều địa điểm nổi tiếng như: **Bãi Cháy**, **Đảo Rều**, **đảo Tuần Châu**, **bảo tàng Quảng Ninh**…\n### 3.2. Hải Phòng"
+    ],
+    "source_ids": [
+      "news/article_03.md::chunk-1",
+      "news/article_04.md::chunk-36",
+      "news/article_05.md::chunk-16",
+      "news/article_03.md::chunk-71",
+      "news/article_04.md::chunk-37"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Hạ Long có diện tích khoảng 1.553 km² với 1.969 hòn đảo đá vôi; là một trong 7 kỳ quan thiên nhiên thế giới.",
+    "expected_context": "Hạ Long Quảng Ninh là một trong các địa điểm du lịch miền Bắc hấp dẫn nhất hiện nay. Với diện tích lên đến 1.553km2 bao gồm 1.969 hòn đảo đá vôi mang nhiều hình thù đẹp mắt, sinh động. Du lịch Hạ Long - 1 trong 7 kỳ quan thiên nhiên thế giới.",
+    "expected_source": "article_03.md",
+    "hit_expected_source": true,
+    "latency_ms": 1794,
+    "retrieval_ms": 723,
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0,
+    "context_recall": 0.5,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Ở Ninh Bình có những cảnh đẹp nổi tiếng nào?",
+    "answer": "- Tràng An\n- Tam Cốc - Bích Động\n- Chùa Bái Đính\n- Cố đô Hoa Lư\n- Hang Múa\n- Động Am Tiên\n\nNgoài ra, Ninh Bình còn nổi tiếng với các món đặc sản như cơm cháy, bún mọc, miến lươn, thịt dê núi [3][5].",
+    "refused": false,
+    "contexts": [
+      "### 3.6. Ninh Bình\nNhắc đến những cảnh đẹp Việt Nam miền Bắc không thể bỏ qua Tràng An Ninh Bình, Tam Cốc Bích Động, chùa Bái Đính hay Hoa Lư… Mảnh đất cố đô thu hút du khách bởi khung cảnh tuyệt đẹp từ những dãy núi đá vôi, sông nước. Đến đây, bạn có thể ngồi trên những chiếc thuyền, ngắm nhìn cảnh đẹp thiên nhiên hùng vĩ và lưu lại cho mình những bức ảnh độc đáo.\n_Chùa Bái Đính - Một trong những cảnh đẹp Việt Nam tại Ninh Bình_",
+      "Hà Nội luôn có một vẻ đẹp rất riêng, thu hút nhiều du khách ghé thăm hằng năm. Bên cạnh đó, nếu bạn muốn chiêm ngưỡng một đại dương xanh giữa lòng Hà Nội, hãy đến ngay **thủy cung Times City** – hơn 3.000 loài sinh vật ở đây chắc chắn sẽ khiến bạn ngỡ ngàng, thích thú.\n### 3.6. Ninh Bình",
+      "##### Vinpearl Luxury Nha Trang\nĐảo Hòn Tre, Tp. Nha Trang, Tỉnh Khánh Hòa, Việt Nam\n## 30\\. Địa điểm du lịch Ninh Bình\nNhắc đến điểm du lịch miền Bắc Ninh Bình, hẳn nhiều du khách sẽ liên tưởng ngay đến quần thể danh thắng Tràng An, Tam Cốc – Bích Động, cố đô Hoa Lư, hang Múa, chùa Bái Đính, động Am Tiên,... Ngoài cảnh đẹp, vùng đất Ninh Bình còn níu chân người tứ phương bởi những món đặc sản thơm ngon như cơm cháy, bún mọc, miến lươn, thịt dê núi,...\n## 31\\. Về Đồng Tháp ngắm mùa sen nở",
+      "# TOP 20+ cảnh đẹp Việt Nam được khách du lịch yêu thích NHẤT\n14/01/2024272.156\n## Cảnh đẹp Việt Nam là những danh lam thắng cảnh kết tinh từ vẻ đẹp của thiên nhiên và văn hóa lịch sử. Dưới đây sẽ là 20+ cảnh đẹp trứ danh bạn nên đến một lần trong đời!\n## 1\\. Những cảnh đẹp miền Nam nổi tiếng nhất\n### 1.1. Tây Ninh - vùng đất của thắng cảnh và di tích\n_Điểm du lịch núi Bà Đen – một trong những cảnh đẹp Việt Nam nổi tiếng tại Tây Ninh_",
+      "##### Vinpearl Hotel Bắc Ninh\nKm 1+200, đường Trần Hưng Đạo, Quận Kinh Bắc, Tỉnh Bắc Ninh, Việt Nam\n## 28\\. Điểm du lịch nổi tiếng tại Hà Giang"
+    ],
+    "source_ids": [
+      "news/article_04.md::chunk-46",
+      "news/article_04.md::chunk-45",
+      "news/article_03.md::chunk-67",
+      "news/article_04.md::chunk-0",
+      "news/article_03.md::chunk-62"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Ninh Bình nổi tiếng với Tràng An, Tam Cốc Bích Động, chùa Bái Đính và Hoa Lư — cảnh núi đá vôi, sông nước, có thể ngồi thuyền ngắm cảnh.",
+    "expected_context": "Nhắc đến những cảnh đẹp Việt Nam miền Bắc không thể bỏ qua Tràng An Ninh Bình, Tam Cốc Bích Động, chùa Bái Đính hay Hoa Lư… Mảnh đất cố đô thu hút du khách bởi khung cảnh tuyệt đẹp từ những dãy núi đá vôi, sông nước.",
+    "expected_source": "article_04.md",
+    "hit_expected_source": true,
+    "latency_ms": 2295,
+    "retrieval_ms": 568,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6697,
+    "context_recall": 1.0,
+    "context_precision": 0.8333
+  },
+  {
+    "question": "Bãi Kỳ Co ở Quy Nhơn có gì đặc biệt?",
+    "answer": "- Bãi Kỳ Co được ví như “Maldives tại Việt Nam” với địa thế độc đáo, ba mặt giáp núi và một mặt giáp biển.\n- Bãi biển có hình dáng của một vầng trăng khuyết rất đẹp.\n- Du khách sẽ choáng ngợp trước khung cảnh kỳ vĩ của núi, hang đá, phiến đá và vách đá cao.\n- Nước biển ở đây cực mát và khá nông, cho phép bơi ra xa 100 m mà nước chỉ ngang cổ [1].",
+    "refused": false,
+    "contexts": [
+      "## 15\\. Bãi Kỳ Co – Quy Nhơn\nBãi Kỳ Co được ví von như “Maldives tại Việt Nam”. Bãi Kỳ Co có địa thế rất độc đáo, ba mặt giáp núi và một mặt giáp biển. Bãi biển mang dáng hình của một vầng trăng khuyết cực đẹp.\nDu lịch bãi Kỳ Co, bạn sẽ choáng ngợp bởi khung cảnh kỳ vĩ của những ngọn núi, hang đá, phiến đá, vách đá cao ngút ngàn. Đặc biệt, nước biển ở đây cực mát và khá nông. Bạn sẽ được thỏa thích ngâm mình trong làn nước mát và bơi ra xa 100 m mà nước cũng chỉ ngang cổ.",
+      "- **Gợi ý 10 bãi biển Huế đẹp bậc nhất không nên bỏ lỡ**\n## 11\\. Bãi biển Lý Sơn - Quảng Ngãi\nLý Sơn là 1 trong 10 _bãi biển đẹp nhất Việt Nam_. Biển Lý Sơn làm du khách mê mẩn với khung cảnh yên bình của một làng quê ven biển và làn nước biển xanh trong, nhìn thấy cả đáy.\nĐặc biệt, tại biển Lý Sơn có một địa điểm bạn không thể không ghé, đó là cổng Tò Vò độc đáo. Nơi đây là một vòm đá nham thạch tự nhiên cực đẹp cao gần 2.5 m. Cổng Tò Vò chính là chứng tích của núi lửa từ hàng triệu năm trước.",
+      "##### Vinpearl Beachfront Nha Trang\n78 - 80 Đường Trần Phú, Phường Lộc Thọ, Tp. Nha Trang\n## 12\\. Điểm du lịch Quảng Bình\nNằm ở vùng duyên hải miền Trung, Quảng Bình là điểm đến thú vị với bãi biển hoang sơ, hang động độc đáo, núi sông hùng vĩ cùng nhiều món đặc sản thơm ngon. **Du lịch Quảng Bình**, du khách sẽ được khám phá quần thể hang động Phong Nha - Kẻ Bàng, một trong những di sản thiên nhiên thế giới.",
+      "Đường Võ Chí Công, xã Thăng An, TP Đà Nẵng\n## 18\\. Bãi biển Cửa Việt - Quảng Trị\nCửa Việt là bãi biển nằm ở cửa sông Bến Hải. Bãi biển Cửa Việt được che chắn bởi hai vách núi cao nên ít có gió mạnh hay sóng lớn, cực an toàn để bạn thỏa thích tắm biển.\nKhung cảnh bãi tắm Cửa Việt cực kỳ quyến rũ với biển xanh, hàng cây nghiêng nghiêng và bãi cát trải dài bất tận. Chơi dù lượn, đạp xe dọc bãi biển hay ngắm hoàng hôn là trải nghiệm cực tuyệt tại biển Cửa Việt.\n## 19\\. Biển Phú Yên",
+      "Không chỉ nổi tiếng với các hành động, Quảng Bình còn sở hữu các bãi biển hoang sơ tuyệt đẹp như: biển Nhật Lệ, biển Đá Nhảy, Bảo Ninh,... Và đặc biệt, hải sản nơi đây nổi tiếng vừa ngon giá cả vừa hợp lý. Nhất là món mực được đánh giá ngon nhất Việt Nam và rất ngọt nhờ độ mặn của biển Quảng Bình.\n_Bãi biển Bảo Ninh - Một trong những cảnh đẹp Việt Nam tại Quảng Bình_\n### 2.5. Huế"
+    ],
+    "source_ids": [
+      "news/article_05.md::chunk-24",
+      "news/article_05.md::chunk-19",
+      "news/article_03.md::chunk-26",
+      "news/article_05.md::chunk-29",
+      "news/article_04.md::chunk-25"
+    ],
+    "retrieval_method": "dense",
+    "expected_answer": "Bãi Kỳ Co được ví như \"Maldives tại Việt Nam\", ba mặt giáp núi một mặt giáp biển, hình vầng trăng khuyết; nước biển mát và nông, bơi ra xa 100 m nước chỉ ngang cổ.",
+    "expected_context": "Bãi Kỳ Co được ví von như “Maldives tại Việt Nam”. Bãi Kỳ Co có địa thế rất độc đáo, ba mặt giáp núi và một mặt giáp biển. Bãi biển mang dáng hình của một vầng trăng khuyết cực đẹp. Đặc biệt, nước biển ở đây cực mát và khá nông. Bạn sẽ được thỏa thích ngâm mình trong làn nước mát và bơi ra xa 100 m mà nước cũng chỉ ngang cổ.",
+    "expected_source": "article_05.md",
+    "hit_expected_source": true,
+    "latency_ms": 2769,
+    "retrieval_ms": 663,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.6031,
+    "context_recall": 1.0,
+    "context_precision": 1.0
+  }
+]
