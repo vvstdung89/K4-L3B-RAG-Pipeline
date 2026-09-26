@@ -29,6 +29,20 @@ cp .env.example .env
 
 Điền API key cần dùng trong `.env`; không commit file này.
 
+Mặc định cấu hình Gemini hiện dùng `gemini-embedding-001` (3072 chiều,
+`RETRIEVAL_DOCUMENT`/`RETRIEVAL_QUERY`) và `gemini-3.5-flash-lite` cho generation
+và evaluation. Sau khi đổi embedding model, cần tạo lại vector index trước khi
+chạy retrieval. Chạy A/B và lưu kết quả từng case cùng điểm tổng hợp bằng:
+
+```bash
+python -m src.task4_chunking_indexing
+python -m src.task11_evaluation --top-k 5
+```
+
+Kết quả evaluation được ghi vào `reports/gemini_eval_results.json`. Cấu hình A
+dùng dense-only; cấu hình B dùng hybrid + RRF. Cả hai dùng chung generator,
+prompt, evaluator, golden dataset và `top_k`.
+
 Để crawl 5 bài du lịch mẫu, tạo API key trong [Firecrawl](https://firecrawl.dev/),
 điền vào `FIRECRAWL_API_KEY` trong `.env`. Nếu môi trường đã cài trước khi thêm
 Firecrawl, cài lại dependency rồi chạy:
