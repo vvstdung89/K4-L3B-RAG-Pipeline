@@ -68,6 +68,14 @@ pytest -q
 streamlit run app.py
 ```
 
+## Giao diện demo React
+
+Giao diện của nhánh `Thihn/02468` đã được tích hợp với các task hiện tại.
+Từ root chạy `python -m src.api_server`; trong terminal thứ hai chạy
+`cd src`, `npm ci`, rồi `npm run dev`. Mở http://localhost:3000.
+Chat cần ChromaDB đã index; các tab dữ liệu và A/B dùng dữ liệu đang có trong repo.
+Xem [hướng dẫn UI](src/README.md) để biết cấu hình và cách kiểm tra.
+
 ## Lộ trình 3 giờ
 
 | Mốc                  | Thời gian | Kết quả cần có                           |
